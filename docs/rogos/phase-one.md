@@ -1,0 +1,62 @@
+# RogOS 第一阶段基线
+
+日期：2026-11-15（Asia/Shanghai）。本阶段建立独立前端开发基线，未部署生产服务。
+
+## 来源与开发
+
+- Fork：https://github.com/my-purpose/RogOS（公开）
+- upstream：https://github.com/ryokun6/ryos
+- 固定基线：`0d572edacd287538bd731efd3d5b757b07da16cc`；开工时远程 main 与其一致。
+- 本地：`/Users/david/Documents/RogOS`；分支：`codex/phase-one`。
+- 保留上游 AGPL-3.0-only 许可证和版权声明。当前保留原版 UI 和内容；名称、个人内容与权限边界在后续阶段处理。
+- 博客和房间工作树不参与本项目。
+
+使用 Bun 1.4.4（与上游 CI 一致，`.bun-version` 已固定）。上游说明的 1.3.5 无法读取版本 3 锁文件。
+
+```sh
+bun install --frozen-lockfile
+bun run dev:rogos
+```
+
+本机 Bun 安装在 `/Users/david/.local/share/rogos-tools/node_modules/.bin`；如果 shell 找不到 bun，先执行：
+
+```sh
+export PATH="/Users/david/.local/share/rogos-tools/node_modules/.bin:$PATH"
+```
+
+访问 http://127.0.0.1:5174 。固定端口，避免无意切换浏览器数据来源。命令只启动 Vite，绑定回环地址，并把实时提供方设为 local；未启动 API、Redis 或 WebSocket 服务，未配置付费密钥。不要把前端模式当作离线模式，预置媒体、外部链接等仍可能联网。
+
+GitHub 已显示 Fork Actions 默认禁用；本地工作流另将 image 和 deploy 两个任务固定为 false，防止启用 Actions 后沿用作者 GHCR / Coolify 目标。未来上线前需重新配置，不能直接开启。
+
+## 运行验证清单
+
+Chrome，未登录本地 OS，前端开发模式：
+
+| 状态 | 应用/能力 | 实际证据与边界 |
+| --- | --- | --- |
+| 可用 | 桌面、Finder | 桌面加载、Dock 打开应用程序目录，显示 30 项，双击启动应用 |
+| 可用 | 计算器基本运算 | 实际按钮输入 2 + 3 =，结果 5 |
+| 可用 | 便笺基本保存 | 输入测试文字，重新加载页面后文字保留 |
+| 受限验收 | Paint、扫雷 | 各自窗口/画布、棋盘界面启动；绘画导出、完整游戏过程尚未验证 |
+| 受限验收 | Preview | 打开文稿入口正常；未导入各类真实文件 |
+| 受限验收 | TextEdit | 编辑器启动；未完成命名保存、导入导出回归 |
+| 待验证 | 系统偏好设置及其他应用 | 不将源码审计等同于运行通过 |
+| 未配置 | AI、账号、同步、聊天室及其他后端能力 | 没有启动后端或接入凭据，不承诺可用 |
+| 失败（已解决） | Bun 1.3.5 安装依赖 | UnknownLockfileVersion；改用 1.4.4 后 frozen-lockfile 安装成功 |
+
+上述为第一版候选清单，不是最终应用裁剪决策。本轮没有发现已测试基本操作失败；未测试部分不算通过。
+
+## 数据保存位置
+
+实际浏览器检查：当前 origin `http://127.0.0.1:5174` 创建 IndexedDB `ryOS`，版本 18。源码显示 documents/images/books、persisted_state、vfs_items 等对象仓库承载文稿、图片和应用状态；另有 localStorage 保存部分配置/缓存。Finder 是浏览器虚拟文件系统，不是 Mac 硬盘目录。端口、协议、主机名改变会改变 origin；清理站点数据会删除本地记录，嵌入与独立站点共享数据尚未测试。测试便笺只存在此本地浏览器，不写入仓库。
+
+## 自动检查
+
+- `bun install --frozen-lockfile`：成功，1223 packages。
+- `bun run typecheck`：通过。
+- `bun run test:registration`：通过，499 unit / 31 API / 1 opt-in。
+- 计算器引擎、便笺 reducer、Preview wiring 三个既有测试文件：25 pass / 0 fail。
+- `git diff --check`：通过。
+- 未运行生产构建、全量单测、API 集成或付费测试；上游 AGENTS 对本地构建有明确限制，本阶段使用开发运行验证。
+
+下一步：补齐核心应用文件读写/导出与设置交互回归，再进入阶段二配置边界。上线、AI 及博客嵌入尚未实施。
