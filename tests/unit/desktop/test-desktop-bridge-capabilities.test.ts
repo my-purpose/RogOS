@@ -120,7 +120,7 @@ describe("menubar window chrome layout", () => {
 describe("runtime bridge consumers", () => {
   const g = globalThis as Record<string, unknown>;
   let hadWindow = false;
-  let originalWindow: unknown;
+  let originalWindowDescriptor: PropertyDescriptor | undefined;
   let originalBridge: unknown;
   let hadBridge = false;
   let originalNavigatorDescriptor: PropertyDescriptor | undefined;
@@ -139,9 +139,9 @@ describe("runtime bridge consumers", () => {
 
   beforeEach(() => {
     hadWindow = "window" in g && g.window !== undefined;
-    originalWindow = g.window;
+    originalWindowDescriptor = Object.getOwnPropertyDescriptor(globalThis, "window");
     if (!hadWindow) {
-      g.window = {};
+      Object.defineProperty(globalThis, "window", { configurable: true, writable: true, value: {} });
     }
     const win = g.window as Record<string, unknown>;
     hadBridge = "ryosDesktop" in win;
@@ -160,10 +160,10 @@ describe("runtime bridge consumers", () => {
       delete win.ryosDesktop;
     }
     if (!hadWindow) {
-      if (originalWindow === undefined) {
-        delete g.window;
+      if (originalWindowDescriptor) {
+        Object.defineProperty(globalThis, "window", originalWindowDescriptor);
       } else {
-        g.window = originalWindow;
+        delete g.window;
       }
     }
     if (originalNavigatorDescriptor) {

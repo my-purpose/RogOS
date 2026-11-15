@@ -1,0 +1,798 @@
+[
+  {
+    "id": "finder",
+    "errors": [],
+    "failed": [
+      [
+        503,
+        "http://127.0.0.1:5174/api/auth/session"
+      ],
+      [
+        503,
+        "http://127.0.0.1:5174/api/songs?include=metadata&createdBy=ryo"
+      ],
+      [
+        503,
+        "http://127.0.0.1:5174/api/analytics/events"
+      ],
+      [
+        503,
+        "http://127.0.0.1:5174/api/analytics/events"
+      ]
+    ],
+    "text": "Finder\n文件\n编辑\n显示\n前往\n帮助\n11月15日 周日 22:09\nMacintosh HD\nMacintosh HD\nAirDrop\n应用程序\n小程序\n视频\n书籍\n图像\n文稿\n下载\n音乐\n桌面\n废纸篓\n视频\n书籍\n图像\n网站\n文稿\n下载\n小程序\n音乐\n应用程序\n桌面\n11 个项目, 10 GB 可用\nMacintosh HD\niPod\nApplet Store\n\n嘿！我是 Rover。提示：你可以将我拖移到任何地方，我会吸附到窗口和程序坞。🪄\n\nryOS 已推出 Mac 版应用程序\n下载"
+  },
+  {
+    "id": "textedit",
+    "errors": [],
+    "failed": [
+      [
+        503,
+        "http://127.0.0.1:5174/api/auth/session"
+      ],
+      [
+        503,
+        "http://127.0.0.1:5174/api/songs?include=metadata&createdBy=ryo"
+      ],
+      [
+        503,
+        "http://127.0.0.1:5174/api/analytics/events"
+      ],
+      [
+        503,
+        "http://127.0.0.1:5174/api/analytics/events"
+      ]
+    ],
+    "text": "文本编辑\n文件\n编辑\n格式\n帮助\n11月15日 周日 22:11\n未命名\n文本\n\n\n\n\nMacintosh HD\niPod\nApplet Store\n\n看来你正在使用 ryOS！需要帮忙吗？我是 Rover，很高兴为你提供帮助。📎\n\nryOS 已推出 Mac 版应用程序\n下载"
+  },
+  {
+    "id": "preview",
+    "errors": [],
+    "failed": [
+      [
+        503,
+        "http://127.0.0.1:5174/api/auth/session"
+      ],
+      [
+        503,
+        "http://127.0.0.1:5174/api/songs?include=metadata&createdBy=ryo"
+      ],
+      [
+        503,
+        "http://127.0.0.1:5174/api/analytics/events"
+      ],
+      [
+        503,
+        "http://127.0.0.1:5174/api/analytics/events"
+      ]
+    ],
+    "text": "预览\n文件\n显示\n帮助\n11月15日 周日 22:09\n预览\n打开文稿\n选择文件或将它拖到此处\nMacintosh HD\niPod\nApplet Store\n\n你好！我是 Rover，你的桌面助手。如有任何需要，请点按我！👋\n\nryOS 已推出 Mac 版应用程序\n下载"
+  },
+  {
+    "id": "paint",
+    "errors": [],
+    "failed": [
+      [
+        503,
+        "http://127.0.0.1:5174/api/auth/session"
+      ],
+      [
+        503,
+        "http://127.0.0.1:5174/api/songs?include=metadata&createdBy=ryo"
+      ],
+      [
+        503,
+        "http://127.0.0.1:5174/api/analytics/events"
+      ],
+      [
+        503,
+        "http://127.0.0.1:5174/api/analytics/events"
+      ]
+    ],
+    "text": "画图\n文件\n编辑\n滤镜\n帮助\n11月15日 周日 22:09\n未命名\nMacintosh HD\niPod\nApplet Store\n\n嘿！我是 Rover。提示：你可以将我拖移到任何地方，我会吸附到窗口和程序坞。🪄\n\nryOS 已推出 Mac 版应用程序\n下载"
+  },
+  {
+    "id": "minesweeper",
+    "errors": [],
+    "failed": [
+      [
+        503,
+        "http://127.0.0.1:5174/api/auth/session"
+      ],
+      [
+        503,
+        "http://127.0.0.1:5174/api/songs?include=metadata&createdBy=ryo"
+      ],
+      [
+        503,
+        "http://127.0.0.1:5174/api/auth/session"
+      ],
+      [
+        503,
+        "http://127.0.0.1:5174/api/songs?include=metadata&createdBy=ryo"
+      ],
+      [
+        503,
+        "http://127.0.0.1:5174/api/analytics/events"
+      ]
+    ],
+    "text": "扫雷\n文件\n帮助\n11月15日 周日 22:09\n扫雷\n10\n剩余\n🙂\n10\n总计\nMacintosh HD\niPod\nApplet Store\nryOS 已推出 Mac 版应用程序\n下载"
+  },
+  {
+    "id": "stickies",
+    "errors": [],
+    "failed": [
+      [
+        503,
+        "http://127.0.0.1:5174/api/auth/session"
+      ],
+      [
+        503,
+        "http://127.0.0.1:5174/api/songs?include=metadata&createdBy=ryo"
+      ],
+      [
+        503,
+        "http://127.0.0.1:5174/api/analytics/events"
+      ],
+      [
+        503,
+        "http://127.0.0.1:5174/api/analytics/events"
+      ]
+    ],
+    "text": "便笺\n文件\n便条\n帮助\n11月15日 周日 22:09\nMacintosh HD\niPod\nApplet Store\n\n看来你正在使用 ryOS！需要帮忙吗？我是 Rover，很高兴为你提供帮助。📎\n\nryOS 已推出 Mac 版应用程序\n下载"
+  },
+  {
+    "id": "calculator",
+    "errors": [],
+    "failed": [
+      [
+        503,
+        "http://127.0.0.1:5174/api/auth/session"
+      ],
+      [
+        503,
+        "http://127.0.0.1:5174/api/songs?include=metadata&createdBy=ryo"
+      ],
+      [
+        503,
+        "http://127.0.0.1:5174/api/analytics/events"
+      ],
+      [
+        503,
+        "http://127.0.0.1:5174/api/currency-rate?from=USD&to=EUR"
+      ],
+      [
+        503,
+        "http://127.0.0.1:5174/api/analytics/events"
+      ]
+    ],
+    "text": "计算器\n文件\n显示\n声音\n帮助\n11月15日 周日 22:09\n计算器\n基本\n0\n \n \nMC\nM+\nM−\nMR\nC\n±\n÷\n×\n7\n8\n9\n−\n4\n5\n6\n+\n1\n2\n3\n=\n0\n.\nMacintosh HD\niPod\nApplet Store\n\n嘿！我是 Rover。提示：你可以将我拖移到任何地方，我会吸附到窗口和程序坞。🪄\n\nryOS 已推出 Mac 版应用程序\n下载"
+  },
+  {
+    "id": "control-panels",
+    "errors": [],
+    "failed": [
+      [
+        503,
+        "http://127.0.0.1:5174/api/auth/session"
+      ],
+      [
+        503,
+        "http://127.0.0.1:5174/api/songs?include=metadata&createdBy=ryo"
+      ],
+      [
+        503,
+        "http://127.0.0.1:5174/api/analytics/events"
+      ],
+      [
+        503,
+        "http://127.0.0.1:5174/api/analytics/events"
+      ]
+    ],
+    "text": "系统偏好设置\n文件\n帮助\n11月15日 周日 22:11\n系统偏好设置\n显示全部\n个人\n外观\n桌面与屏幕保护程序\n语言与地区\n助理\n硬件与系统\n显示器\n声音\n账户\n安全性\n网络与连接\n云端同步\n备份与恢复\n软件更新\nMacintosh HD\niPod\nApplet Store\n\n你好！我是 Rover，你的桌面助手。如有任何需要，请点按我！👋\n\nryOS 已推出 Mac 版应用程序\n下载"
+  },
+  {
+    "id": "calendar",
+    "errors": [],
+    "failed": [
+      [
+        503,
+        "http://127.0.0.1:5174/api/auth/session"
+      ],
+      [
+        503,
+        "http://127.0.0.1:5174/api/songs?include=metadata&createdBy=ryo"
+      ],
+      [
+        503,
+        "http://127.0.0.1:5174/api/analytics/events"
+      ],
+      [
+        503,
+        "http://127.0.0.1:5174/api/auth/session"
+      ],
+      [
+        503,
+        "http://127.0.0.1:5174/api/songs?include=metadata&createdBy=ryo"
+      ],
+      [
+        503,
+        "http://127.0.0.1:5174/api/analytics/events"
+      ]
+    ],
+    "text": "日历\n文件\n编辑\n显示\n帮助\n11月15日 周日 22:10\n选择日程或待办事项\n11月 15 – 21, 2026\n日历\nHome\nWork\n2026年11月\n日\n一\n二\n三\n四\n五\n六\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\n25\n26\n27\n28\n29\n30\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n周日\n15\n周一\n16\n周二\n17\n周三\n18\n周四\n19\n周五\n20\n周六\n21\n0时\n1时\n2时\n3时\n4时\n5时\n6时\n7时\n8时\n9时\n10时\n11时\n12时\n13时\n14时\n15时\n16时\n17时\n18时\n19时\n20时\n21时\n22时\n23时\n今天\n日\n周\n月\nMacintosh HD\niPod\nApplet Store"
+  },
+  {
+    "id": "contacts",
+    "errors": [],
+    "failed": [
+      [
+        503,
+        "http://127.0.0.1:5174/api/songs?include=metadata&createdBy=ryo"
+      ],
+      [
+        503,
+        "http://127.0.0.1:5174/api/auth/session"
+      ],
+      [
+        503,
+        "http://127.0.0.1:5174/api/analytics/events"
+      ],
+      [
+        503,
+        "http://127.0.0.1:5174/api/analytics/events"
+      ]
+    ],
+    "text": "通讯录\n文件\n编辑\n帮助\n11月15日 周日 22:11\n通讯录\n群组\n全部\n已导入\nTelegram\n工作\n生日\n姓名\nRL\nRyo Lu\nRL\nRyo Lu\n电子邮件\nme@ryo.lu\n网址\nhttps://ryo.lu\n网址\nhttps://x.com/ryolu_\n网址\nhttps://os.ryo.lu\n昵称\nryo\n编辑\n1 张名片\nMacintosh HD\niPod\nApplet Store\n\n嘿！我是 Rover。提示：你可以将我拖移到任何地方，我会吸附到窗口和程序坞。🪄\n\nryOS 已推出 Mac 版应用程序\n下载"
+  },
+  {
+    "id": "books",
+    "errors": [],
+    "failed": [
+      [
+        503,
+        "http://127.0.0.1:5174/api/auth/session"
+      ],
+      [
+        503,
+        "http://127.0.0.1:5174/api/songs?include=metadata&createdBy=ryo"
+      ],
+      [
+        503,
+        "http://127.0.0.1:5174/api/analytics/events"
+      ],
+      [
+        503,
+        "http://127.0.0.1:5174/api/analytics/events"
+      ]
+    ],
+    "text": "书籍\n文件\n显示\n语音\n前往\n帮助\n11月15日 周日 22:12\n书籍\nMacintosh HD\niPod\nApplet Store\n\n嘿！我是 Rover。提示：你可以将我拖移到任何地方，我会吸附到窗口和程序坞。🪄\n\nryOS 已推出 Mac 版应用程序\n下载"
+  },
+  {
+    "id": "journal",
+    "errors": [],
+    "failed": [
+      [
+        503,
+        "http://127.0.0.1:5174/api/auth/session"
+      ],
+      [
+        503,
+        "http://127.0.0.1:5174/api/songs?include=metadata&createdBy=ryo"
+      ],
+      [
+        503,
+        "http://127.0.0.1:5174/api/analytics/events"
+      ],
+      [
+        503,
+        "http://127.0.0.1:5174/api/analytics/events"
+      ]
+    ],
+    "text": "很好玩。\n\n我们让电脑更快。手机更薄。加了更多镜头。让机器在越来越多事情上比我们聪明。不知怎么的，我们也变得更疏离、更孤单了。\n\n我们花了好多力气想打败人类。我希望我们能多花点时间，从人们的生活里学习，让那些生活变得更好。\n\n工作的时候，我有时还是会想：Steve 会怎么做？\n\n我永远不会知道了。没能跟他一起工作，我很难过。但他的作品传到了一个用着米色 PC 的孩子手上，改变了他人生的方向。不知道还有多少人，有着跟我一样的故事。\n\n我一直把这句话带在身边：\n\n「那些疯狂到以为自己能改变世界的人，才是真正改变世界的人。」\n\n还有好多值得做的东西。能让我们全心投入的东西。能让某个人感受到，我第一次看见那台 iMac 时那种感觉的东西。\n\n谢谢你，Steve。💛\n\n10月5日周一\n\n10月17日周六\n\n光从窗缝瞄进来\n窗边的鸟鸣\n咖啡粉绽开\n\n桧木林里慢慢走\n长吸一口气 空气凉凉的\n朦胧的雨滴 敲打着皮肤\n乘着浪\n无尽的海 盐在唇上\n\n火车窗 山一路滑过\n牵着手跑着\n穿越黄灯\n热了一整天后 泡进冷水\n你笑得像个小孩\n\n闭上眼\n听我们最爱的歌\n依偎 亲吻\n你的呼吸 缓落在我颈上\n听见我的心碎\n\n一天一天 让时间过去\n午夜到日出\n人生很美 本该就是这样\n\n10月17日周六\n\n我学习写程式做设计，靠的是尝试、失败、再尝试。\n\n碰壁了就想办法爬过去。读一些自己几乎看不懂的东西。把问题拆开来研究，找人帮忙，从头来过。\n\n刚开始工作的时候，我一直在做从没做过的事。试着用不同的方法，让新想法运转起来。学不到东西了，就去找下一场挣扎。\n\n刚开始做了很多东西，都不够好。但磨练过够多轮，总有些什么留了下来。曾经要花好大力气的事，变成了我思考方式的一部分。可能用语言说不出为什么，但就能感觉到哪里不对。\n\n做事变得像水一样。\n\n我回想这一路经历了什么。那个怎么修都修不好的 bug。那个看起来没问题、直到有人真的拿去用的设计。那场让我看见自己缺点的对话。\n\n现在，我们可以去问机器了。\n\n我用这些工具做出了一些东西，要是没有它们，我可能永远都不会做。那些繁琐的工作，我也不是每一件都怀念。但我在想，如果在弄懂困难教导了我们什么之前，就先把困难去掉了，会发生什么事？\n\n只要一问，结果就出现了。用起来还可以，就继续向前。\n\n我们学会了怎么得到结果，却不一定懂它是怎么运作的。因为结果看起来很完整，我们很容易错过那些从来没学会，要去问的问题。\n\n这件事还有另一面。\n\n跟人一起工作，是不舒服的。\n\n每个人想要的都不一样。每个人都有你不知道的过去。有人在乎一个你觉得不重要的细节。你想往前走的时候，有人会反对。你很确定的时候，有人需要时间。\n\n要找到彼此，得花上一段时间。\n\n但一起挣扎过之后，你们就成了一个乐团。\n\n知道谁会注意到你漏掉的东西。谁能把一个想法拆开，又不把它弄死。什么时候该加进来，什么时候该放慢，什么时候该让别人来带节奏。\n\n你们分享还没完成的作品。承认自己不懂。伤了彼此，道歉，再试一次。最后，做出一个谁都没办法独自做出来的东西。\n\n我最亲近的几段友谊，有些就是这样一起工作出来的。聪明、在乎的人，看过我困惑、犯错、疲惫、兴奋的样子。可以在他们面前示弱。用他们的想法改变了我。\n\n我担心，我们正在让人更容易避开那个开始。\n\nAgent 永远都在。很有耐心，随时准备继续下去。跟它说话，可能比去靠近一个人还容易，那个人也许会误解你、不同意你，或是正好有别的地方要去。\n\n有时候这种容易是有帮助的。但如果我们一直选择机器，友谊要从哪里开始？\n\n想像我们每个人都有自己的 Agent，自己的解释，自己的小小世界。产出更多东西，却越来越少理由离开萤幕，或跟另一个人一起把分歧迈过去。\n\n而这些世界，也不完全属于我们。\n\n它们跑在伺服器农场里的机器上，属于某些公司，被我们未必看得见的利益塑造着。我们把自己的问题、自己的工作、自己的寂寞都给了它们。它们成了我们理解什么是真实的一部分。\n\n这是自由吗？\n\n还是一种舒适的囚禁，一切都在回应我们，但能真正触动我们的东西却越来越少？\n\n我不认为痛苦一定会让一件事变好。有些挣扎，没有人应该去承受。但我不想失去那种困难：去研究一样陌生的东西，或去认识一个跟我不一样的人。\n\n也许我们需要的工具，是帮我们花更多时间和这个世界连结在一起，而不是给我们更少理由走进去。让人更容易找到彼此、分享还没完成的东西、一起想通那些独自想不通的事。\n\n有时候，我想关上笔电。\n\n跟我爱的人坐在一起，玩一首我们还没摸透的曲子。弹错一个音，掉了拍子，一直倾听，直到我们再次找到彼此。\n\n像一个爵士乐团。每个人带来不一样的音符。没有人知道我们最后会走到哪里。\n\n我不想要没有挣扎的人生。我想找到能一起挣扎的人。做一些我们能感受、能改变、能变成自己一部分的东西。\n\n一段我们谁都没办法独自创作出来的音乐，而不是伺服器农场里那片无声的杂讯。\n\n10月25日周日\n\n刚开始做软体的时候，我梦想的不是一座工厂。\n\n我喜欢的是，萤幕上的东西可以变成我思绪的延伸。一个在我还没想通之前，就能先把想法放下来的地方。把东西搬来搬去，直到新的连结浮现。做一些照着我的方式运作的小系统，就算别人都看不懂也没关系。\n\n电脑有趣，不是因为它可以不靠我就把事情做完。而是因为我可以用它做到的事。\n\n早期的电脑发展，就是围绕着这种可能性建立起来的。1962 年，Engelbart 这样描述扩增人类智慧：帮助一个人理解复杂的处境，找到原本遥不可及的解法。他的出发点是人，不是自主运作的机器。\n\n他描述的不是一个更快的黑箱。他看的是一整段关系：一个人，和他的工具、他的语言、他的方法，还有他能学会用这些做到什么。能力属于这整个系统。\n\n不知道从什么时候开始，我们用一个小得多的故事，去讲一项强大得多的技术。\n\n更多自动化。更多 AI 代理。更多软体产出更多软体。更少的人，更多的产出。更多增长。更多数字，来证明有什么正在发生。\n\n而这一切原本要服务的那个人，得到的关注却越来越少。\n\n我不想假装电脑的起点有多纯真。取代人力，本来就是它的野心之一。不过早在 1960 年，Licklider 就把人机共生，和另一种系统区分开来：在那种系统里，剩下的人主要是在服务机器。他希望电脑能参与想法的形成，而不只是执行早就定义好的问题。\n\n这个区别很重要——系统是在帮你发现自己想表达的是什么？还是只想要你送出一个请求，然后在外面等它做完？\n\n有时候，等待正是我想要的。请帮我搜寻。帮我搬档案。把重复的工作拿走。\n\n但不是每一件困难的事，都是多余的负担。\n\n有时候，把碎片搬来搬去，就是理解它们的方式。有时候，动手做这件东西，会改变你原本想做的东西。有时候，你需要看到错的版本，摸摸它，把它拆开，才找到一个更好的问题。\n\n我想要能为这种关系留下空间的工具。\n\n在 1981 年那篇关于 Smalltalk 的论文里，Ingalls 描述了一个系统，是为了支持每个人的创造精神。个人的掌握很重要：一个人应该能理解这个系统，而不是永远依赖一个自己碰不到的东西。\n\n他也主张，电脑模型应该配合人的心智，而不是反过来要人去配合。\n\n不是一套适合每个人的完美流程。而是不同的人，可以用不同方式住进去的系统。有人靠图像思考。有人需要写下来。有人靠做模拟来理解问题。有人整理生活的方式，一点都不像 SaaS 的仪表板。\n\n一个能随着你的理解改变，被你重新塑造的系统。\n\n这就是我希望 AI 能带来的可能。不只是大量产出软体，而是跟软体有一段活生生的关系。可以问它为什么这样运作。改掉一部分，而不用交出其余的部分。看看发生了什么，重做，学到足够的东西，下一次自己动手改。\n\n机器可以变得更强，也不让人变得更渺小。\n\n但这不会只因为模型变好就自然发生。我们必须在乎。为人而设计。当我们让人变得更依赖，却说这是在赋予人力量的时候，要能察觉。\n\n我不想只用没有人也能完成多少工作，来衡量未来。\n\n我想知道，那些以前没办法参与的人，现在有什么变得可能了。\n\n他们现在能理解什么？能表达什么？不用请求许可，就能改变什么？\n\n当我说扩增人类智慧，我指的就是这个。\n\n不是一个不再需要我们的世界。\n而是一个我们更有能力去塑造的世界。\n\n10月29日周四\n\n10月30日周五\n\n胸口发烫 背脊发凉\n心悬在崖边 准备坠落\n在无爱的太空飘浮 只剩我 和几个陌生灵魂\n戴着笑脸 打声招呼「最近好吗？」\n「还不错 你呢？」\n\n日子照样过 失了控\n一行泪滑落 没人看见\n视线模糊 被思绪淹没\n大人的世界 好奇怪\n\n我问心底的小孩 你为什么活着？\n他想都没想过\n他在结冰的河上滑来滑去 咯咯地笑\n他唱歌 他玩耍 他画画\n他飞进未知 什么都不怕 什么都好奇\n他闭上眼睛 就看见了奇迹\n\n像水 没有形状\n像白纸 没有规则\n\n「怎么哭了 大男孩？」\n「你还是我啊 我也还是你」\n\n10月30日周五\n\n当我真正开始爱自己\n我才认识到\n所有的痛苦和情感的折磨\n都只是提醒我\n活着 不要违背自己的本心\n今天我明白了 这叫做「真实」\n\n当我真正开始爱自己\n我才懂得\n把自己的愿望强加于人\n是多么的无礼\n就算我知道 时机并不成熟\n那人也还没有做好准备\n就算那个人就是我自己\n今天我明白了 这叫做「尊重」\n\n当我真正开始爱自己\n我不再渴求不同的人生\n我知道任何发生在我身边的事情\n都是对我成长的邀请\n如今 我称之为「成熟」\n\n当我真正开始爱自己\n我才明白 我其实一直都在正确的时间\n正确的地方 发生的一切都恰如其分\n由此我得以平静\n今天我明白了 这叫做「自信」\n\n当我真正开始爱自己\n我不再牺牲自己的自由时间\n不再去勾画什么宏伟的明天\n今天我只做有趣和快乐的事\n做自己热爱 让心欢喜的事\n用我的方式 以我的韵律\n今天我明白了 这叫做「单纯」\n\n当我真正开始爱自己\n我开始远离一切不健康的东西\n不论是饮食和人物 还是事情和环境\n我远离一切让我远离本真的东西\n从前我把这叫「追求健康的自私自利」\n但今天我明白了 这是「自爱」\n\n当我真正开始爱自己\n我不再总想着要永远真确 不犯错误\n我今天明白了 这叫做「谦逊」\n\n当我真正开始爱自己\n我不再继续沉溺于过去\n也不再为明天而忧虑\n现在我只活在一切正在发生的当下\n今天 我活在此时此地\n如此日复一日 这就叫「完美」\n\n当我真正开始爱自己\n我明白 我的思虑让我变得贫乏和病态\n但当我唤起了心灵的力量\n理智就变成了一个重要的伙伴\n这种组合我称之为「心的智慧」\n\n我们无需害怕自己和其他人的分歧\n矛盾和问题\n因为即使星星有时也会碰在一起\n形成新的世界\n今天我明白\n这就是「生命」\n\nKim & Alison McMillen\n\n11月6日周五\n\n第 1 页\nMacintosh HD\niPod\nApplet Store\n\n嘿！我是 Rover。提示：你可以将我拖移到任何地方，我会吸附到窗口和程序坞。🪄\n\nryOS 已推出 Mac 版应用程序\n下载"
+  },
+  {
+    "id": "fitness",
+    "errors": [],
+    "failed": [
+      [
+        503,
+        "http://127.0.0.1:5174/api/auth/session"
+      ],
+      [
+        503,
+        "http://127.0.0.1:5174/api/songs?include=metadata&createdBy=ryo"
+      ],
+      [
+        503,
+        "http://127.0.0.1:5174/api/analytics/events"
+      ],
+      [
+        503,
+        "http://127.0.0.1:5174/api/fitness/exercises"
+      ],
+      [
+        503,
+        "http://127.0.0.1:5174/api/analytics/events"
+      ]
+    ],
+    "text": "健身\n文件\n显示\n计划\n帮助\n11月15日 周日 22:10\n接下来的周\n2026年11月\n一\n二\n三\n四\n五\n六\n日\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\n25\n26\n27\n28\n29\n30\n2026年12月\n一\n二\n三\n四\n五\n六\n日\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\n25\n26\n27\n28\n29\n30\n31\n2027年1月\n一\n二\n三\n四\n五\n六\n日\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\n25\n26\n27\n28\n29\n30\n31\n更多月份\n健身\n日程\n练习\n训练\n身体\n饮食\n本周\n11月9日–11月15日\n应用模板\n周一\n11/9\n已错过\n上肢\n周二\n11/10\n已错过\n下肢\n周三\n11/11\n休息\n周四\n11/12\n已错过\n上肢\n周五\n11/13\n已错过\n下肢\n周六\n11/14\n已错过\n有氧训练\n周日\n11/15\n休息\n推荐用于休息\n\n休息日。恢复、拉伸或散散步。\n\n每周目标\n每周 3 次\n本周已完成 0/3 次体能训练\n尚无连续记录 · 已计划 5 天训练\nMacintosh HD\niPod\nApplet Store\n\n你好！我是 Rover — 我可以打开 App、播放音乐或回答问题。尽管开口问我吧！✨\n\nryOS 已推出 Mac 版应用程序\n下载"
+  },
+  {
+    "id": "stuff",
+    "errors": [],
+    "failed": [
+      [
+        503,
+        "http://127.0.0.1:5174/api/songs?include=metadata&createdBy=ryo"
+      ],
+      [
+        503,
+        "http://127.0.0.1:5174/api/auth/session"
+      ],
+      [
+        503,
+        "http://127.0.0.1:5174/api/analytics/events"
+      ],
+      [
+        503,
+        "http://127.0.0.1:5174/api/analytics/events"
+      ]
+    ],
+    "text": "东西\n文件\n显示\n打印\n帮助\n11月15日 周日 22:10\n东西\n\n暂无物品\n\n添加项目或扫描条形码以开始填充架子。\n\nMacintosh HD\niPod\nApplet Store\n\n嘿！我是 Rover。提示：你可以将我拖移到任何地方，我会吸附到窗口和程序坞。🪄\n\nryOS 已推出 Mac 版应用程序\n下载"
+  },
+  {
+    "id": "terminal",
+    "errors": [],
+    "failed": [
+      [
+        503,
+        "http://127.0.0.1:5174/api/auth/session"
+      ],
+      [
+        503,
+        "http://127.0.0.1:5174/api/songs?include=metadata&createdBy=ryo"
+      ],
+      [
+        503,
+        "http://127.0.0.1:5174/api/analytics/events"
+      ],
+      [
+        503,
+        "http://127.0.0.1:5174/api/analytics/events"
+      ]
+    ],
+    "text": "终端\n文件\n编辑\n显示\n帮助\n11月15日 周日 22:10\n终端\n     __  __ \n _  /  \\(_  \n| \\/\\__/__) \n  /         \n上次登录：22:10:38\n输入 'help' 查看可用命令\n\n\n→ /\nMacintosh HD\niPod\nApplet Store\n\n看来你正在使用 ryOS！需要帮忙吗？我是 Rover，很高兴为你提供帮助。📎\n\nryOS 已推出 Mac 版应用程序\n下载"
+  },
+  {
+    "id": "synth",
+    "errors": [],
+    "failed": [
+      [
+        503,
+        "http://127.0.0.1:5174/api/auth/session"
+      ],
+      [
+        503,
+        "http://127.0.0.1:5174/api/songs?include=metadata&createdBy=ryo"
+      ],
+      [
+        503,
+        "http://127.0.0.1:5174/api/analytics/events"
+      ],
+      [
+        503,
+        "http://127.0.0.1:5174/api/analytics/events"
+      ]
+    ],
+    "text": "合成器\n文件\n预设\n显示\n帮助\n11月15日 周日 22:10\n合成器\nSYNTH\nPIANO\nPAD\nLEAD\n控制\nMacintosh HD\niPod\nApplet Store\n\n你好！我是 Rover，你的桌面助手。如有任何需要，请点按我！👋\n\nryOS 已推出 Mac 版应用程序\n下载"
+  },
+  {
+    "id": "soundboard",
+    "errors": [],
+    "failed": [
+      [
+        503,
+        "http://127.0.0.1:5174/api/auth/session"
+      ],
+      [
+        503,
+        "http://127.0.0.1:5174/api/songs?include=metadata&createdBy=ryo"
+      ],
+      [
+        503,
+        "http://127.0.0.1:5174/api/analytics/events"
+      ],
+      [
+        503,
+        "http://127.0.0.1:5174/api/analytics/events"
+      ]
+    ],
+    "text": "音效板\n文件\n编辑\n显示\n帮助\n11月15日 周日 22:10\nRyo\n音效板\nRyo\nNewJeans\nRyo\n🙈\nohno\n👍\nnot horrible\n♻️\nalready have\n🕹️\nplus one\n↔\nexpand animation\n😉\nsame thing\n🔥\nwtfrwd\n💥\nbam\n🏃‍♂️\ngogogo\nMacintosh HD\niPod\nApplet Store\n\n你好！我是 Rover，你的桌面助手。如有任何需要，请点按我！👋\n\nryOS 已推出 Mac 版应用程序\n下载"
+  },
+  {
+    "id": "photo-booth",
+    "errors": [],
+    "failed": [
+      [
+        503,
+        "http://127.0.0.1:5174/api/auth/session"
+      ],
+      [
+        503,
+        "http://127.0.0.1:5174/api/songs?include=metadata&createdBy=ryo"
+      ],
+      [
+        503,
+        "http://127.0.0.1:5174/api/analytics/events"
+      ],
+      [
+        503,
+        "http://127.0.0.1:5174/api/analytics/events"
+      ]
+    ],
+    "text": "Photo Booth\n文件\n相机\n效果\n帮助\n11月15日 周日 22:11\nPhoto Booth\n效果\nMacintosh HD\niPod\nApplet Store\n\n你好！我是 Rover — 我可以打开 App、播放音乐或回答问题。尽管开口问我吧！✨\n\nryOS 已推出 Mac 版应用程序\n下载"
+  },
+  {
+    "id": "dashboard",
+    "errors": [],
+    "failed": [
+      [
+        503,
+        "http://127.0.0.1:5174/api/auth/session"
+      ],
+      [
+        503,
+        "http://127.0.0.1:5174/api/songs?include=metadata&createdBy=ryo"
+      ],
+      [
+        503,
+        "http://127.0.0.1:5174/api/analytics/events"
+      ],
+      [
+        503,
+        "http://127.0.0.1:5174/api/analytics/events"
+      ]
+    ],
+    "text": "Dashboard\n文件\n帮助\n11月15日 周日 22:11\nMacintosh HD\niPod\nApplet Store\n\n你好！我是 Rover — 我可以打开 App、播放音乐或回答问题。尽管开口问我吧！✨\n\nryOS 已推出 Mac 版应用程序\n下载\n下午10:11\n12\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n中国标准时间\n完成\n使用我的位置\n纽约, NY, 美国\n伦敦, 英国\n东京, 日本\n巴黎, 法国\n悉尼, 澳大利亚\n旧金山, CA, 美国\n柏林, 德国\n新加坡, 新加坡\n上海, 中国\n香港, 香港\n台北, 台湾\n周日\n11月\n15\n日\n一\n二\n三\n四\n五\n六\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\n25\n26\n27\n28\n29\n30\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n完成\n显示颜色\n蓝色\n✓\n红色\n✓\n绿色\n✓\n橙色\n✓\n紫色\n✓\n最高： 17°\n旧金山\n最低： 11°\n12°\n周一\n周二\n周三\n周四\n周五\n周六\n13°\n15°\n15°\n15°\n16°\n15°\n完成\n使用我的位置\n纽约, NY, 美国\n伦敦, 英国\n东京, 日本\n巴黎, 法国\n悉尼, 澳大利亚\n旧金山, CA, 美国\n柏林, 德国\n新加坡, 新加坡\n上海, 中国\n香港, 香港\n台北, 台湾"
+  },
+  {
+    "id": "maps",
+    "errors": [],
+    "failed": [
+      [
+        503,
+        "http://127.0.0.1:5174/api/auth/session"
+      ],
+      [
+        503,
+        "http://127.0.0.1:5174/api/songs?include=metadata&createdBy=ryo"
+      ],
+      [
+        503,
+        "http://127.0.0.1:5174/api/analytics/events"
+      ],
+      [
+        503,
+        "http://127.0.0.1:5174/api/mapkit-token"
+      ],
+      [
+        503,
+        "http://127.0.0.1:5174/api/geo"
+      ],
+      [
+        503,
+        "http://127.0.0.1:5174/api/analytics/events"
+      ]
+    ],
+    "text": "地图\n文件\n显示\n帮助\n11月15日 周日 22:11\n搜索地点，然后使用地点卡上的操作将其设为「家」、「工作」，或添加到个人收藏。\n地图\n地图\n尚未配置 Apple 地图。请让开发者添加 MapKit 凭据。\n配置凭据后，服务器会自动签发短期 MapKit 令牌。\nMacintosh HD\niPod\nApplet Store\n\n看来你正在使用 ryOS！需要帮忙吗？我是 Rover，很高兴为你提供帮助。📎\n\nryOS 已推出 Mac 版应用程序\n下载"
+  },
+  {
+    "id": "dictionary",
+    "errors": [],
+    "failed": [
+      [
+        503,
+        "http://127.0.0.1:5174/api/auth/session"
+      ],
+      [
+        503,
+        "http://127.0.0.1:5174/api/songs?include=metadata&createdBy=ryo"
+      ],
+      [
+        503,
+        "http://127.0.0.1:5174/api/analytics/events"
+      ],
+      [
+        503,
+        "http://127.0.0.1:5174/api/analytics/events"
+      ]
+    ],
+    "text": "词典\n文件\n显示\n读音\n帮助\n11月15日 周日 22:11\n词典\n自动\n最近使用\n\n没有最近的查询记录\n\n查询字词\n\n使用英文、中文、日文或韩文搜索。你也可以输入拼音、罗马字或英文含义。\n\nserendipity\n學習\n勉強\n사랑\nMacintosh HD\niPod\nApplet Store\n\n嘿！我是 Rover。提示：你可以将我拖移到任何地方，我会吸附到窗口和程序坞。🪄\n\nryOS 已推出 Mac 版应用程序\n下载"
+  },
+  {
+    "id": "chats",
+    "errors": [],
+    "failed": [
+      [
+        503,
+        "http://127.0.0.1:5174/api/auth/session"
+      ],
+      [
+        503,
+        "http://127.0.0.1:5174/api/songs?include=metadata&createdBy=ryo"
+      ],
+      [
+        503,
+        "http://127.0.0.1:5174/api/analytics/events"
+      ],
+      [
+        503,
+        "http://127.0.0.1:5174/api/rooms"
+      ],
+      [
+        503,
+        "http://127.0.0.1:5174/api/analytics/events"
+      ]
+    ],
+    "text": "聊天\n文件\n聊天\n声音\n设置\n帮助\n11月15日 周日 22:12\n@ryo\n聊天\n@ryo\n@ryo\n登录 ryOS\n清除\nRyo\n22:12\n\n👋 hey! i'm ryo. ask me anything!\n\nMacintosh HD\niPod\nApplet Store\n\n你好！我是 Rover，你的桌面助手。如有任何需要，请点按我！👋\n\nryOS 已推出 Mac 版应用程序\n下载"
+  },
+  {
+    "id": "ipod",
+    "errors": [],
+    "failed": [
+      [
+        503,
+        "http://127.0.0.1:5174/api/auth/session"
+      ],
+      [
+        503,
+        "http://127.0.0.1:5174/api/songs?include=metadata&createdBy=ryo"
+      ],
+      [
+        503,
+        "http://127.0.0.1:5174/api/analytics/events"
+      ],
+      [
+        503,
+        "http://127.0.0.1:5174/api/songs?include=version&createdBy=ryo"
+      ],
+      [
+        503,
+        "http://127.0.0.1:5174/api/songs?include=metadata&createdBy=ryo"
+      ],
+      [
+        503,
+        "http://127.0.0.1:5174/api/analytics/events"
+      ]
+    ],
+    "text": "iPod\n文件\n控制\n显示\n资料库\n帮助\n11月15日 周日 22:12\niPod\niPod\niPod\n音乐\n音乐\n›\n附加功能\n附加功能\n›\n设置\n设置\n›\n随机播放歌曲\n随机播放歌曲\n背光灯\n背光灯\n播放中\n播放中\n›\nMENU\n⏭\n⏯\n⏮\nMacintosh HD\niPod\nApplet Store\n\n你好！我是 Rover — 我可以打开 App、播放音乐或回答问题。尽管开口问我吧！✨\n\nryOS 已推出 Mac 版应用程序\n下载"
+  },
+  {
+    "id": "karaoke",
+    "errors": [],
+    "failed": [
+      [
+        503,
+        "http://127.0.0.1:5174/api/auth/session"
+      ],
+      [
+        503,
+        "http://127.0.0.1:5174/api/songs?include=metadata&createdBy=ryo"
+      ],
+      [
+        503,
+        "http://127.0.0.1:5174/api/analytics/events"
+      ],
+      [
+        503,
+        "http://127.0.0.1:5174/api/songs?include=version&createdBy=ryo"
+      ],
+      [
+        503,
+        "http://127.0.0.1:5174/api/songs?include=metadata&createdBy=ryo"
+      ],
+      [
+        503,
+        "http://127.0.0.1:5174/api/analytics/events"
+      ]
+    ],
+    "text": "卡拉 OK\n文件\n控制\n显示\n资料库\n帮助\n11月15日 周日 22:12\n卡拉 OK\n\n卡拉 OK 中尚无歌曲\n\n从 YouTube 添加音乐即可开始。\n\n添加歌曲\n字\n简\nKo\nMacintosh HD\niPod\nApplet Store\n\n看来你正在使用 ryOS！需要帮忙吗？我是 Rover，很高兴为你提供帮助。📎\n\nryOS 已推出 Mac 版应用程序\n下载"
+  },
+  {
+    "id": "videos",
+    "errors": [],
+    "failed": [
+      [
+        503,
+        "http://127.0.0.1:5174/api/auth/session"
+      ],
+      [
+        503,
+        "http://127.0.0.1:5174/api/songs?include=metadata&createdBy=ryo"
+      ],
+      [
+        503,
+        "http://127.0.0.1:5174/api/analytics/events"
+      ],
+      [
+        503,
+        "http://127.0.0.1:5174/api/analytics/events"
+      ]
+    ],
+    "text": "视频\n文件\n控制\n媒体库\n帮助\n11月15日 周日 22:11\n视频\n曲目\n0\n1\n时间\n00:00\n标题\nMake Something Wonderful - Steve Jobs\nMake Something Wonderful - Steve Jobs\n随机播放\n循环\n→\n添加\nMacintosh HD\niPod\nApplet Store\n\n你好！我是 Rover，你的桌面助手。如有任何需要，请点按我！👋\n\nryOS 已推出 Mac 版应用程序\n下载"
+  },
+  {
+    "id": "tv",
+    "errors": [],
+    "failed": [
+      [
+        503,
+        "http://127.0.0.1:5174/api/auth/session"
+      ],
+      [
+        503,
+        "http://127.0.0.1:5174/api/songs?include=metadata&createdBy=ryo"
+      ],
+      [
+        503,
+        "http://127.0.0.1:5174/api/analytics/events"
+      ],
+      [
+        503,
+        "http://127.0.0.1:5174/api/analytics/events"
+      ]
+    ],
+    "text": "电视\n文件\n控制\n频道\n帮助\n11月15日 周日 22:11\n01\niPod Ad (2001)\n02\nMake Something Wonderful\n03\nMacBook Air Ad (2008)\n04\niPhone 4 Introduction (2010)\n05\nA Conversation with Jony Ive\n06\niMac G4 Introduction (2002)\n07\nMacintosh Introduction (1984)\n08\niPod Introduction (2001)\n09\nMac OS X Introduction Part 2 (2000)\n10\nApple Back on Track (1998)\n11\nMac OS X Introduction Part 1 (2000)\n12\niPhone Introduction (2007)\n13\nOur designer built an OS with Cursor\n14\niPod Nano Ad (2005)\n15\niPhone 4 Ad (2010)\n16\nOn Focus\n17\niMac G4 \"Lamp\" Ad (2002)\n18\niMac G3 vs PC Simplicity (1998)\n19\nMacintosh (1984)\nCH 01 — RyoTV\n频道\n0\n1\n网络\nRyoTV\n现在\niPod Ad (2001) — Apple Computer\niPod Ad (2001) — Apple Computer\n频道−\n频道+\nMacintosh HD\niPod\nApplet Store\n\n你好！我是 Rover — 我可以打开 App、播放音乐或回答问题。尽管开口问我吧！✨\n\nryOS 已推出 Mac 版应用程序\n下载"
+  },
+  {
+    "id": "winamp",
+    "errors": [],
+    "failed": [
+      [
+        503,
+        "http://127.0.0.1:5174/api/auth/session"
+      ],
+      [
+        503,
+        "http://127.0.0.1:5174/api/songs?include=metadata&createdBy=ryo"
+      ],
+      [
+        503,
+        "http://127.0.0.1:5174/api/analytics/events"
+      ],
+      [
+        503,
+        "http://127.0.0.1:5174/api/analytics/events"
+      ]
+    ],
+    "text": "Winamp\n文件\n皮肤\n控制\n帮助\n11月15日 周日 22:11\nMacintosh HD\niPod\nApplet Store\n\n你好！我是 Rover，你的桌面助手。如有任何需要，请点按我！👋\n\nryOS 已推出 Mac 版应用程序\n下载\n1.RickAstley-NeverGonnaGiveYouUp()***1.RickAstley-NeverGonnaGiveYouUp()\n1. Rick Astley - Never Gonna Give You Up\n0:00/0:00"
+  },
+  {
+    "id": "internet-explorer",
+    "errors": [],
+    "failed": [
+      [
+        503,
+        "http://127.0.0.1:5174/api/auth/session"
+      ],
+      [
+        503,
+        "http://127.0.0.1:5174/api/songs?include=metadata&createdBy=ryo"
+      ],
+      [
+        503,
+        "http://127.0.0.1:5174/api/analytics/events"
+      ],
+      [
+        503,
+        "http://127.0.0.1:5174/api/iframe-check?url=https%3A%2F%2Fapple.com&year=2001&month=11&theme=macosx&ieFrame=o73f8QxS2oA_HMJ4DTiTDPeF.1794751919231"
+      ],
+      [
+        503,
+        "http://127.0.0.1:5174/api/iframe-check?mode=list-cache&url=https%3A%2F%2Fapple.com"
+      ],
+      [
+        503,
+        "http://127.0.0.1:5174/api/analytics/events"
+      ]
+    ],
+    "text": "Internet Explorer\n文件\n编辑\n收藏夹\n浏览记录\n帮助\n11月15日 周日 22:12\napple.com\n2001\nApple\nRyo\nryOS Docs\nFriends\nWork\nTools\nSites\nMacintosh HD\niPod\nApplet Store\n\n你好！我是 Rover，你的桌面助手。如有任何需要，请点按我！👋\n\nryOS 已推出 Mac 版应用程序\n下载"
+  },
+  {
+    "id": "infinite-mac",
+    "errors": [],
+    "failed": [
+      [
+        503,
+        "http://127.0.0.1:5174/api/auth/session"
+      ],
+      [
+        503,
+        "http://127.0.0.1:5174/api/songs?include=metadata&createdBy=ryo"
+      ],
+      [
+        503,
+        "http://127.0.0.1:5174/api/analytics/events"
+      ],
+      [
+        503,
+        "http://127.0.0.1:5174/api/analytics/events"
+      ]
+    ],
+    "text": "Infinite Mac\n文件\n显示\n帮助\n11月15日 周日 22:12\nInfinite Mac\n12 个系统可用\nSystem 1.0\n1984\nSystem 6.0.8\n1991\nSystem 7.5.3\n1996\nKanjiTalk 7.5.3\n1996\nMac OS 8.0\n1997\nMac OS 8.5\n1998\nMac OS 9.0\n1999\nMac OS 9.2.2\n2001\nMac OS X 10.1\n2001\nMac OS X 10.2\n2002\nMac OS X 10.3\n2003\nMac OS X 10.4\n2005\nMacintosh HD\niPod\nApplet Store\n\n你好！我是 Rover — 我可以打开 App、播放音乐或回答问题。尽管开口问我吧！✨\n\nryOS 已推出 Mac 版应用程序\n下载"
+  },
+  {
+    "id": "pc",
+    "errors": [],
+    "failed": [
+      [
+        503,
+        "http://127.0.0.1:5174/api/auth/session"
+      ],
+      [
+        503,
+        "http://127.0.0.1:5174/api/songs?include=metadata&createdBy=ryo"
+      ],
+      [
+        503,
+        "http://127.0.0.1:5174/api/analytics/events"
+      ],
+      [
+        503,
+        "http://127.0.0.1:5174/api/analytics/events"
+      ]
+    ],
+    "text": "虚拟 PC\n文件\n显示\n帮助\n11月15日 周日 22:12\n操作系统\n|\n游戏\n30 个可用系统\nFreeDOS\n1998\nMS-DOS 6.22\n1994\nWindows 1.01\n1985\nWindows 3.0\n1990\nWindows 3.1\n1992\nWindows 95\n1995\nWindows 98\n1998\nWindows ME\n2000\nWindows 2000\n2000\nLinux 2.6\n2003\nLinux 4.x\n2017\nArch Linux\n2019\nDamn Small Linux\n2006\nBuildroot Linux\n2014\nFreeBSD\n2003\nOpenBSD\n2010\nNetBSD\n2018\nHaiku\n2009\nBeOS 5\n2000\nReactOS\n2018\nKolibriOS\n2009\nOberon\n1990\nRedox\n2016\nMinix\n1987\nSerenityOS\n2018\nHelenOS\n2011\nFiwixOS\n2018\nSol OS\n2012\n软盘上的 Doom\n2024\nMikeOS\n2009\nMacintosh HD\niPod\nApplet Store\n\n嘿！我是 Rover。提示：你可以将我拖移到任何地方，我会吸附到窗口和程序坞。🪄\n\nryOS 已推出 Mac 版应用程序\n下载"
+  },
+  {
+    "id": "applet-viewer",
+    "errors": [],
+    "failed": [
+      [
+        503,
+        "http://127.0.0.1:5174/api/auth/session"
+      ],
+      [
+        503,
+        "http://127.0.0.1:5174/api/songs?include=metadata&createdBy=ryo"
+      ],
+      [
+        503,
+        "http://127.0.0.1:5174/api/analytics/events"
+      ],
+      [
+        503,
+        "http://127.0.0.1:5174/api/share-applet?list=true"
+      ],
+      [
+        503,
+        "http://127.0.0.1:5174/api/analytics/events"
+      ]
+    ],
+    "text": "Applet Store\n文件\n商店\n窗口\n帮助\n11月15日 周日 22:12\n小程序商店\n\n当前没有可用的 Applet。\n\nMacintosh HD\niPod\nApplet Store\n\n你好！我是 Rover — 我可以打开 App、播放音乐或回答问题。尽管开口问我吧！✨\n\nryOS 已推出 Mac 版应用程序\n下载"
+  },
+  {
+    "id": "admin",
+    "errors": [],
+    "failed": [
+      [
+        503,
+        "http://127.0.0.1:5174/api/auth/session"
+      ],
+      [
+        503,
+        "http://127.0.0.1:5174/api/songs?include=metadata&createdBy=ryo"
+      ],
+      [
+        503,
+        "http://127.0.0.1:5174/api/analytics/events"
+      ],
+      [
+        503,
+        "http://127.0.0.1:5174/api/analytics/events"
+      ]
+    ],
+    "text": "管理员\n文件\n显示\n帮助\n11月15日 周日 22:12\n管理员\n访问被拒绝\n\n此应用程序仅限管理员使用。\n\n请使用管理员账户登录。\n\nMacintosh HD\niPod\nApplet Store\n\n看来你正在使用 ryOS！需要帮忙吗？我是 Rover，很高兴为你提供帮助。📎\n\nryOS 已推出 Mac 版应用程序\n下载"
+  }
+]

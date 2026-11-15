@@ -1,0 +1,18 @@
+[
+  {
+    "name": "Calculator 2+3=5",
+    "pass": true
+  },
+  {
+    "name": "Stickies edit and reload persistence",
+    "pass": true
+  },
+  {
+    "name": "TextEdit draft edit and reload persistence",
+    "pass": true
+  },
+  {
+    "name": "Paint canvas pointer drawing",
+    "pass": true
+  }
+]

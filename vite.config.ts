@@ -1,4 +1,5 @@
 import { defineConfig, type ViteDevServer } from "vite";
+import { frontendOnlyApi } from "./vite/frontendOnlyApi";
 import react from "@vitejs/plugin-react-swc";
 import tailwindcss from "@tailwindcss/vite";
 import { VitePWA } from "vite-plugin-pwa";
@@ -206,8 +207,8 @@ export default defineConfig({
     },
   },
   optimizeDeps: {
-    // Don't wait for full crawl - allows faster initial dev startup
-    holdUntilCrawlEnd: false,
+    // Avoid serving stale dependency URLs while the initial crawl is still running.
+    holdUntilCrawlEnd: true,
     // Limit entry points to reduce initial crawl scope and memory usage
     entries: [
       'src/main.tsx',
@@ -246,6 +247,9 @@ export default defineConfig({
     // These will be bundled on-demand when their apps are opened
     // Note: AI SDK stays out of exclude to avoid ESM/CJS pre-bundling issues
     exclude: isDev ? [
+      // The import-rewrite plugin discovers these ESM subpaths after the scan.
+      // Serve them directly so opening an app does not invalidate dependency URLs.
+      "@phosphor-icons/react",
       // Audio libs - only needed when Soundboard/iPod/Synth/Karaoke opens
       "tone",
       "wavesurfer.js",
@@ -264,6 +268,13 @@ export default defineConfig({
     ] : [],
   },
   plugins: [
+    {
+      name: "frontend-only-api-response",
+      apply: "serve",
+      configureServer(server) {
+        if (!standaloneApiProxyTarget) server.middlewares.use(frontendOnlyApi);
+      },
+    },
     // Rewrite Phosphor barrel imports to per-icon CSR subpaths so unused icons
     // are tree-shaken out of the client bundle (Vite equivalent of Next.js
     // optimizePackageImports for @phosphor-icons/react).
