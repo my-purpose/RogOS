@@ -11,6 +11,7 @@
   "main": "dist-electron/main.cjs",
   "scripts": {
     "dev": "bun run scripts/generate-build-version.ts && bun run scripts/dev-with-api.ts",
+    "dev:rogos:local": "bun scripts/dev-rogos-local.ts",
     "dev:rogos": "VITE_REALTIME_PROVIDER=local bun run dev:vite --host 127.0.0.1 --port 5174 --strictPort",
     "dev:vite": "bun run scripts/generate-build-version.ts && NODE_OPTIONS='--max-old-space-size=4096' vite --port ${PORT:-5173}",
     "dev:api": "TRUSTED_PROXY_COUNT=1 TELEGRAM_BOT_API_BASE_URL=${TELEGRAM_BOT_API_BASE_URL:-http://localhost:${TELEGRAM_TEST_API_PORT:-3899}} bun --watch scripts/api-standalone-server.ts",
