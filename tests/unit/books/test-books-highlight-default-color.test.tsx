@@ -4,6 +4,7 @@ import {
   afterAll,
   afterEach,
   beforeEach,
+  beforeAll,
   describe,
   expect,
   jest,
@@ -183,6 +184,12 @@ async function mount(reader: FakeReader, highlights: BookHighlight[] = []) {
     );
   });
 }
+
+// Finish the initial asynchronous IndexedDB hydration before installing fake
+// timers or setting per-test colors; otherwise it can overwrite those colors.
+beforeAll(async () => {
+  await useBooksStore.persist.rehydrate();
+});
 
 beforeEach(() => {
   added = [];

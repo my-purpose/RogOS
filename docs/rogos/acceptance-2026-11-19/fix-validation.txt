@@ -1,0 +1,15 @@
+Typecheck: passed
+
+
+ 4255 pass
+ 4 skip
+ 0 fail
+ 37956 expect() calls
+Ran 4259 tests across 500 files. [41.63s]
+
+Books isolated:
+
+ 11 pass
+ 0 fail
+ 41 expect() calls
+Ran 11 tests across 1 file. [155.00ms]

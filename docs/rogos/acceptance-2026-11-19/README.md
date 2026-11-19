@@ -110,3 +110,13 @@ CHROME_PATH='/Applications/Google Chrome.app/Contents/MacOS/Google Chrome' node 
 ## 后续关闭条件
 
 先处理 A-01，定位 A-02；对上表未覆盖的本地模块补齐实际操作，再按实际设备与已配置服务执行受限项目。用户未确定裁剪前，不把不方便测试的应用默认为“不需要验收”。在这些条件满足前，继续保持“未全面通过”的状态。
+
+
+## 2026-11-19 保存与测试隔离修复
+
+- Contacts：Done 先同步写入恢复检查点，再等待 IndexedDB 提交，成功后才退出编辑并清除检查点。立即刷新时，启动恢复检查点并提交到 IndexedDB。失败保留编辑状态并提示，localStorage 配额不足不假报成功。
+- 原立即刷新脚本未增加等待，修复后结果见 `contacts-reload-fixed.json`。新增存储测试验证检查点覆盖旧记录、提交后清除及失效适配器不删除未提交检查点。
+- Books：测试初始化先等待 IndexedDB hydration，再设置颜色和启用假定时器，消除异步恢复覆盖测试设置的竞态。历史失败并非每次重现：修改前本次全量也通过，因此不把单次通过作为根因证明，也不改动 Books 产品高亮逻辑。
+- 此修复不代表未覆盖的 EPUB 阅读等工作流已完成验收；前面的失败记录保留为历史证据。
+
+复验：立即刷新两轮共 10/10 保留，两个等待 1000ms 对照通过；全量单测 4255 pass / 4 skip / 0 fail，Books 独立 11 pass，typecheck 通过。证据见 `contacts-reload-fixed-repeat.json`、`fix-validation.txt`。

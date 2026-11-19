@@ -187,7 +187,7 @@ async function migrateFromLocalStorage<S>(
 }
 
 export function createIndexedDBPersistStorage<S>(
-  options: { delayMs?: number; legacyNames?: readonly string[] } = {}
+  options: { delayMs?: number; legacyNames?: readonly string[]; recoveryKey?: string } = {}
 ): PersistStorage<S> {
   const delayMs = options.delayMs ?? 500;
   const legacyNames = [...new Set(options.legacyNames ?? [])];
@@ -269,6 +269,17 @@ export function createIndexedDBPersistStorage<S>(
       // Read-your-writes: a queued snapshot is newer than IndexedDB.
       if (pendingName === name && pendingValue !== null) {
         return pendingValue;
+      }
+      if (options.recoveryKey) {
+        const raw = localStorage.getItem(options.recoveryKey);
+        if (raw) {
+          const recovered = JSON.parse(raw) as StorageValue<S>;
+          const committed = await writeRecord(name, recovered, adapterEpoch);
+          if (committed && localStorage.getItem(options.recoveryKey) === raw) {
+            localStorage.removeItem(options.recoveryKey);
+          }
+          return recovered;
+        }
       }
       hydratingNames.add(name);
       try {

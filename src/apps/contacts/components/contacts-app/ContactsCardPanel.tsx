@@ -1,3 +1,7 @@
+import { useContactsStore } from "@/stores/useContactsStore";
+import { useState } from "react";
+import { toast } from "sonner";
+import { settleAllPersistWrites } from "@/utils/persistWriteQueue";
 import { AppSidebarPanel } from "@/components/layout/AppSidebarPanel";
 import { cn } from "@/lib/utils";
 import { getContactInitials } from "@/utils/contacts";
@@ -28,6 +32,37 @@ export function ContactsCardPanel({ c }: ContactsCardPanelProps) {
     setIsPicturePickerOpen,
     isMobileLayout,
   } = c;
+
+  const [isSaving, setIsSaving] = useState(false);
+
+  const handleEditToggle = async () => {
+    if (!isEditing) {
+      setIsEditing(true);
+      return;
+    }
+    setIsSaving(true);
+    try {
+      // Synchronous checkpoint survives navigation even before IndexedDB opens.
+      const options = useContactsStore.persist.getOptions();
+      const state = useContactsStore.getState();
+      const checkpoint = JSON.stringify({
+        state: options.partialize ? options.partialize(state) : state,
+        version: options.version ?? 0,
+      });
+      localStorage.setItem("rogos:contacts:save-recovery", checkpoint);
+      await settleAllPersistWrites();
+      if (localStorage.getItem("rogos:contacts:save-recovery") === checkpoint) {
+        localStorage.removeItem("rogos:contacts:save-recovery");
+      }
+      setIsEditing(false);
+    } catch (error) {
+      toast.error(t("apps.contacts.messages.saveFailed", { defaultValue: "Could not save contact. Please try again." }), {
+        description: error instanceof Error ? error.message : String(error),
+      });
+    } finally {
+      setIsSaving(false);
+    }
+  };
 
   return (
     <Panel
@@ -250,7 +285,9 @@ export function ContactsCardPanel({ c }: ContactsCardPanelProps) {
             <button
               type="button"
               className="text-[11px] font-semibold text-black/60 hover:text-black/80 px-3 py-0.5 rounded border border-black/15 bg-white/60"
-              onClick={() => setIsEditing(!isEditing)}
+              onClick={handleEditToggle}
+              disabled={isSaving}
+              aria-busy={isSaving}
             >
               {isEditing ? t("apps.contacts.buttons.done") : t("apps.contacts.buttons.edit")}
             </button>

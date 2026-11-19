@@ -265,3 +265,25 @@ describe("createIndexedDBPersistStorage", () => {
     expect(backing.has("legacy-race")).toBe(true);
   });
 });
+
+
+test("recovery checkpoint supersedes an older committed snapshot after reload", async () => {
+  const storage = createIndexedDBPersistStorage<{ a: number }>({ recoveryKey: "recovery" });
+  storage.setItem("k", { state: { a: 1 }, version: 1 });
+  await settlePersistWrites();
+  const saved = { state: { a: 2 }, version: 1 };
+  localStorage.setItem("recovery", JSON.stringify(saved));
+  expect(await storage.getItem("k")).toEqual(saved);
+  expect(localStorage.getItem("recovery")).toBeNull();
+  const reloaded = createIndexedDBPersistStorage<{ a: number }>();
+  expect(await reloaded.getItem("k")).toEqual(saved);
+});
+
+test("invalidated adapter does not clear an uncommitted recovery checkpoint", async () => {
+  const storage = createIndexedDBPersistStorage<{ a: number }>({ recoveryKey: "recovery" });
+  const raw = JSON.stringify({ state: { a: 2 }, version: 1 });
+  localStorage.setItem("recovery", raw);
+  advancePersistEpoch();
+  await storage.getItem("k");
+  expect(localStorage.getItem("recovery")).toBe(raw);
+});

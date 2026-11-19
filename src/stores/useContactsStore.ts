@@ -169,6 +169,7 @@ export const useContactsStore = create<ContactsStoreState>()(
       name: STORAGE_KEYS.contacts,
       storage: createIndexedDBPersistStorage({
         legacyNames: [LEGACY_STORAGE_KEYS.contacts],
+        recoveryKey: "rogos:contacts:save-recovery",
       }),
       partialize: (state) => ({
         contacts: state.contacts,
