@@ -1,0 +1,209 @@
+[
+  {
+    "id": "finder",
+    "errors": [],
+    "failed": [],
+    "text": "Finder\nFile\nEdit\nView\nGo\nHelp\nThu Nov 19 7:42 AM\nMacintosh HD\nMacintosh HD\nAirDrop\nApplications\nApplets\nBooks\nDocuments\nDownloads\nImages\nMusic\nVideos\nDesktop\nApplets\nApplications\nBooks\nDesktop\nDocuments\nDownloads\nImages\nMusic\nSites\nTrash\nVideos\n11 items, 10 GB available\nMacintosh HD\niPod\nApplet Store\n\nIt looks like you're using ryOS! Need a hand with anything? I'm Rover, happy to help. 📎\n\nryOS is available as a Mac app\nDownload"
+  },
+  {
+    "id": "textedit",
+    "errors": [],
+    "failed": [],
+    "text": "TextEdit\nFile\nEdit\nFormat\nHelp\nThu Nov 19 7:42 AM\nUntitled\nText\n\n\n\n\nMacintosh HD\niPod\nApplet Store\n\nHello! Rover here — I can open apps, play music, or answer questions. Just ask! ✨\n\nryOS is available as a Mac app\nDownload"
+  },
+  {
+    "id": "preview",
+    "errors": [],
+    "failed": [],
+    "text": "Preview\nFile\nView\nHelp\nThu Nov 19 7:42 AM\nPreview\nOpen a document\nChoose a file or drop it here\nMacintosh HD\niPod\nApplet Store\n\nHey! I'm Rover. Tip: you can drag me anywhere, and I'll snap to your windows and dock. 🪄\n\nryOS is available as a Mac app\nDownload"
+  },
+  {
+    "id": "paint",
+    "errors": [],
+    "failed": [],
+    "text": "Paint\nFile\nEdit\nFilters\nHelp\nThu Nov 19 7:42 AM\nUntitled\nMacintosh HD\niPod\nApplet Store\n\nHi there! I'm Rover, your desktop assistant. Click me if you need anything! 👋\n\nryOS is available as a Mac app\nDownload"
+  },
+  {
+    "id": "minesweeper",
+    "errors": [],
+    "failed": [],
+    "text": "Minesweeper\nFile\nHelp\nThu Nov 19 7:42 AM\nMinesweeper\n10\nLeft\n🙂\n10\nTotal\nMacintosh HD\niPod\nApplet Store\n\nHi there! I'm Rover, your desktop assistant. Click me if you need anything! 👋\n\nryOS is available as a Mac app\nDownload"
+  },
+  {
+    "id": "stickies",
+    "errors": [],
+    "failed": [],
+    "text": "Stickies\nFile\nNote\nHelp\nThu Nov 19 7:42 AM\nMacintosh HD\niPod\nApplet Store\n\nIt looks like you're using ryOS! Need a hand with anything? I'm Rover, happy to help. 📎\n\nryOS is available as a Mac app\nDownload"
+  },
+  {
+    "id": "calculator",
+    "errors": [],
+    "failed": [],
+    "text": "Calculator\nFile\nView\nSound\nHelp\nThu Nov 19 7:42 AM\nCalculator\nBasic\n0\n \n \nMC\nM+\nM−\nMR\nC\n±\n÷\n×\n7\n8\n9\n−\n4\n5\n6\n+\n1\n2\n3\n=\n0\n.\nMacintosh HD\niPod\nApplet Store\n\nHi there! I'm Rover, your desktop assistant. Click me if you need anything! 👋\n\nryOS is available as a Mac app\nDownload"
+  },
+  {
+    "id": "control-panels",
+    "errors": [],
+    "failed": [
+      {
+        "status": 401,
+        "url": "http://127.0.0.1:5174/api/realtime/ticket"
+      }
+    ],
+    "text": "System Preferences\nFile\nHelp\nThu Nov 19 7:42 AM\nSystem Preferences\nShow All\nPersonal\nAppearance\nDesktop & Screen Saver\nInternational\nAssistant\nHardware & System\nDisplays\nSound\nAccounts\nSecurity\nInternet & Network\nCloud Sync\nBackup & Restore\nSoftware Update\nMacintosh HD\niPod\nApplet Store\n\nHello! Rover here — I can open apps, play music, or answer questions. Just ask! ✨\n\nryOS is available as a Mac app\nDownload"
+  },
+  {
+    "id": "calendar",
+    "errors": [],
+    "failed": [],
+    "text": "Calendar\nFile\nEdit\nView\nHelp\nThu Nov 19 7:42 AM\nSelect an event or to-do\nNov 15 – 21, 2026\nCalendars\nHome\nWork\nNovember 2026\nS\nM\nT\nW\nT\nF\nS\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\n25\n26\n27\n28\n29\n30\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\nSun\n15\nMon\n16\nTue\n17\nWed\n18\nThu\n19\nFri\n20\nSat\n21\n12 AM\n1 AM\n2 AM\n3 AM\n4 AM\n5 AM\n6 AM\n7 AM\n8 AM\n9 AM\n10 AM\n11 AM\n12 PM\n1 PM\n2 PM\n3 PM\n4 PM\n5 PM\n6 PM\n7 PM\n8 PM\n9 PM\n10 PM\n11 PM\nToday\nDay\nWeek\nMonth\nMacintosh HD\niPod\nApplet Store\n\nHello! Rover here — I can open apps, play music, or answer questions. Just ask! ✨\n\nryOS is available as a Mac app\nDownload"
+  },
+  {
+    "id": "contacts",
+    "errors": [],
+    "failed": [],
+    "text": "Contacts\nFile\nEdit\nHelp\nThu Nov 19 7:43 AM\nContacts\nGroup\nAll\nImported\nTelegram\nWork\nBirthdays\nName\nRL\nRyo Lu\nRL\nRyo Lu\nemail\nme@ryo.lu\nurl\nhttps://ryo.lu\nurl\nhttps://x.com/ryolu_\nurl\nhttps://os.ryo.lu\nnickname\nryo\nEdit\n1 card\nMacintosh HD\niPod\nApplet Store\n\nHey! I'm Rover. Tip: you can drag me anywhere, and I'll snap to your windows and dock. 🪄\n\nryOS is available as a Mac app\nDownload"
+  },
+  {
+    "id": "books",
+    "errors": [],
+    "failed": [],
+    "text": "Books\nFile\nView\nSpeech\nGo\nHelp\nThu Nov 19 7:43 AM\nBooks\nMacintosh HD\niPod\nApplet Store\n\nHey! I'm Rover. Tip: you can drag me anywhere, and I'll snap to your windows and dock. 🪄\n\nryOS is available as a Mac app\nDownload"
+  },
+  {
+    "id": "journal",
+    "errors": [],
+    "failed": [],
+    "text": " they could learn to do with them. the capability belonged to that whole system.\n\nsomewhere along the way, we started telling a much smaller story about a much more powerful technology.\n\nmore automation. more agents. more software producing more software. more output from fewer people. more growth. more numbers to prove that something is happening.\n\nand less attention to the person any of this is supposed to be for.\n\ni don’t want to pretend computing had a pure innocent beginning. replacing human labor was one of its ambitions. even in 1960, Licklider distinguished human-computer symbiosis from systems where the remaining people mainly served the machine. he wanted computers to participate in the formation of ideas, not only execute problems already defined.\n\nthat distinction feels important – does the system help you discover what you mean? or does it only want you to submit a request, and wait outside while it works?\n\nsometimes waiting is exactly what i want. please do the search. move the files. take away the repetitive work.\n\nbut not everything difficult is overhead.\n\nsometimes moving the pieces around is how you understand them. sometimes making the thing changes what you wanted to make. sometimes you need to see the wrong version, touch it, take it apart, and discover a better question.\n\ni want tools that leave room for that relationship.\n\nin his 1981 paper on Smalltalk, Ingalls described a system meant to support everyone’s creative spirit. personal mastery mattered: an individual should be able to comprehend the system, rather than remain dependent on something permanently beyond their reach.\n\nhe also argued that computer models should fit the human mind, rather than demand the reverse.\n\nnot one perfect workflow for everyone. systems that different people can inhabit differently. someone who thinks through pictures. someone who needs to write. someone who understands a problem by building a simulation. someone whose way of organizing their life doesn’t resemble a SaaS dashboard.\n\na system you can reshape as your understanding changes.\n\nthis is what i want AI to make possible. not just pumping out software, but having a living relationship with it. being able to ask why something works this way. change one part without surrendering the rest. see what happened. undo it. learn enough to make the next change yourself.\n\nthe machine can become more capable without making the person smaller.\n\nbut that won’t happen just because we make the models better. we have to care about it. design for it. notice when we are making someone more dependent while calling it empowerment.\n\ni don’t want to measure the future only by how much work happens without us.\n\ni want to know what becomes possible for the person who couldn’t participate before.\n\nwhat can they understand now? what can they express? what can they change without asking permission?\n\nwhen i say augmenting human intellect, that is what i mean.\n\nnot a world that no longer needs us.\na world we have more ability to shape.\n\nThu, Oct 29\n\nFri, Oct 30\n\nwarm tension, cold chills\nheart hanging off a cliff, ready to free fall\nfloating in space with no love, just me and some stranger souls\nwearing smiles and greet “How are you?”\n“I’m good, you?”\n\nlife carries on, unhinged\na tear slips, no one noticed\nvision blurs, drowned in thoughts\nwhat a strange grown-up world\n\ni asked my inner child, why do you live?\nhe has never thought about it\nhe slid on the cold iced river, amused\nhe sang, he played, he drew\nhe flew into the unknown, fearless, curious\nhe closed his eyes and saw wonders\n\nlike water, with no shape\nlike paper, clear of rules\n\n“Why cry, big boy?”\n“You are still me, and I’m still you.”\n\nFri, Oct 30\n\nas i began to love myself\ni found that anguish and emotional suffering\nare only warning signs that i was living against my own truth\ntoday, i know, this is authenticity\n\nas i began to love myself\ni understood how much it can offend somebody\nas i try to force my desires on this person\neven though i knew the time was not right\nand the person was not ready for it\nand even though this person was me\ntoday i call it respect\n\nas i began to love myself\ni stopped craving for a different life\nand i could see that everything that surrounded me\nwas inviting me to grow\ntoday i call it maturity\n\nas i began to love myself\ni understood that at any circumstance\ni am in the right place at the right time\nand everything happens at the exactly right moment\nso i could be calm\ntoday i call it self-confidence\n\nas i began to love myself\ni quit steeling my own time\nand i stopped designing huge projects for the future\ntoday, i only do what brings me joy and happiness\nthings i love to do and that make my heart cheer\nand i do them in my own way and in my own rhythm\ntoday i call it simplicity\n\nas i began to love myself\ni freed myself of anything that is no good for my health\nfood, people, things, situations\nand everything that drew me down and away from myself\nat first i called this attitude a healthy egoism\ntoday i know it is love of oneself\n\nas i began to love myself\ni quit trying to always be right\nand ever since i was wrong less of the time\ntoday i discovered that is modesty\n\nas i began to love myself\ni refused to go on living in the past\nand worry about the future\nnow, i only live for the moment\nwhere everything is happening\ntoday i live each day, day by day\nand i call it fulfillment\n\nas i began to love myself\ni recognized that my mind can disturb me\nand it can make me sick\nbut as i connected it to my heart\nmy mind became a valuable ally\ntoday i call this connection wisdom of the heart\n\nwe no longer need to fear arguments, confrontations\nor any kind of problems with ourselves or others\neven stars collide\nand out of their crashing new worlds are born\ntoday i know that is life\n\nKim & Alison McMillen\n\nFri, Nov 6\n\nPage 1\nMacintosh HD\niPod\nApplet Store\n\nIt looks like you're using ryOS! Need a hand with anything? I'm Rover, happy to help. 📎\n\nryOS is available as a Mac app\nDownload"
+  },
+  {
+    "id": "fitness",
+    "errors": [],
+    "failed": [],
+    "text": "Fitness\nFile\nView\nPlan\nHelp\nThu Nov 19 7:43 AM\nUpcoming Weeks\nNovember 2026\nM\nT\nW\nT\nF\nS\nS\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\n25\n26\n27\n28\n29\n30\nDecember 2026\nM\nT\nW\nT\nF\nS\nS\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\n25\n26\n27\n28\n29\n30\n31\nJanuary 2027\nM\nT\nW\nT\nF\nS\nS\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\n25\n26\n27\n28\n29\n30\n31\nMore Months\nFitness\nSchedule\nExercises\nWorkouts\nBody\nFood\nThis Week\nNov 16 – Nov 22\nApply Template\nMON\n11/16\nMissed\nUpper Body\nTUE\n11/17\nMissed\nLower Body\nWED\n11/18\nRest\nTHU\n11/19\nUpper Body\nFRI\n11/20\nLower Body\nSAT\n11/21\nCardio\nSUN\n11/22\nRest\nRecommended for Upper Body\n\nTargets: Chest, Shoulders, Lats, Middle Back, Biceps, Triceps, Traps\n\nStart Workout\nBarbell Bench Press - Medium Grip\nBarbell\nBent Over Barbell Row\nBarbell\nDumbbell Shoulder Press\nDumbbell\nWide-Grip Lat Pulldown\nCable\nDumbbell Bicep Curl\nDumbbell\nTriceps Pushdown\nCable\nAlternating Cable Shoulder Press\nCable\nAnti-Gravity Press\nBarbell\nWeekly Goal\n3 per week\n0 of 3 workouts this week\nNo streak yet · 5 training days planned\nMacintosh HD\niPod\nApplet Store\n\nHey! I'm Rover. Tip: you can drag me anywhere, and I'll snap to your windows and dock. 🪄\n\nryOS is available as a Mac app\nDownload"
+  },
+  {
+    "id": "stuff",
+    "errors": [],
+    "failed": [],
+    "text": "Stuff\nFile\nView\nPrint\nHelp\nThu Nov 19 7:43 AM\nStuff\n\nNo Stuff Yet\n\nAdd an item or scan a barcode to start filling your shelves.\n\nMacintosh HD\niPod\nApplet Store\n\nIt looks like you're using ryOS! Need a hand with anything? I'm Rover, happy to help. 📎\n\nryOS is available as a Mac app\nDownload"
+  },
+  {
+    "id": "terminal",
+    "errors": [],
+    "failed": [],
+    "text": "Terminal\nFile\nEdit\nView\nHelp\nThu Nov 19 7:43 AM\nTerminal\n     __  __ \n _  /  \\(_  \n| \\/\\__/__) \n  /         \nlast login: 7:43:32 AM\ntype 'help' to see available commands\n\n\n→ /\nMacintosh HD\niPod\nApplet Store\n\nHi there! I'm Rover, your desktop assistant. Click me if you need anything! 👋\n\nryOS is available as a Mac app\nDownload"
+  },
+  {
+    "id": "synth",
+    "errors": [],
+    "failed": [],
+    "text": "Synth\nFile\nPresets\nView\nHelp\nThu Nov 19 7:43 AM\nSynth\nSYNTH\nPIANO\nPAD\nLEAD\nCONTROLS\nMacintosh HD\niPod\nApplet Store\n\nHey! I'm Rover. Tip: you can drag me anywhere, and I'll snap to your windows and dock. 🪄\n\nryOS is available as a Mac app\nDownload"
+  },
+  {
+    "id": "soundboard",
+    "errors": [],
+    "failed": [],
+    "text": "Soundboard\nFile\nEdit\nView\nHelp\nThu Nov 19 7:43 AM\nRyo\nSoundboards\nRyo\nNewJeans\nRyo\n🙈\nohno\n👍\nnot horrible\n♻️\nalready have\n🕹️\nplus one\n↔\nexpand animation\n😉\nsame thing\n🔥\nwtfrwd\n💥\nbam\n🏃‍♂️\ngogogo\nMacintosh HD\niPod\nApplet Store\n\nIt looks like you're using ryOS! Need a hand with anything? I'm Rover, happy to help. 📎\n\nryOS is available as a Mac app\nDownload"
+  },
+  {
+    "id": "photo-booth",
+    "errors": [],
+    "failed": [],
+    "text": "Photo Booth\nFile\nCamera\nEffects\nHelp\nThu Nov 19 7:43 AM\nPhoto Booth\nEffects\nMacintosh HD\niPod\nApplet Store\n\nIt looks like you're using ryOS! Need a hand with anything? I'm Rover, happy to help. 📎\n\nryOS is available as a Mac app\nDownload"
+  },
+  {
+    "id": "dashboard",
+    "errors": [],
+    "failed": [],
+    "text": "Dashboard\nFile\nHelp\nThu Nov 19 7:43 AM\nMacintosh HD\niPod\nApplet Store\n\nHi there! I'm Rover, your desktop assistant. Click me if you need anything! 👋\n\nryOS is available as a Mac app\nDownload\n7:43 AM\n12\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\nSHANGHAI\nDone\nUse My Location\nNew York, NY, United States\nLondon, United Kingdom\nTokyo, Japan\nParis, France\nSydney, Australia\nSan Francisco, CA, United States\nBerlin, Germany\nSingapore, Singapore\nShanghai, China\nHong Kong, Hong Kong\nTaipei, Taiwan\nThu\nNov\n19\nS\nM\nT\nW\nT\nF\nS\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\n25\n26\n27\n28\n29\n30\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\nDone\nShow Colors\nBlue\n✓\nRed\n✓\nGreen\n✓\nOrange\n✓\nPurple\n✓\nH: 14°\nSan Francisco\nL: 10°\n10°\nTHU\nFRI\nSAT\nSUN\nMON\nTUE\n13°\n14°\n14°\n12°\n15°\n14°\nDone\nUse My Location\nNew York, NY, United States\nLondon, United Kingdom\nTokyo, Japan\nParis, France\nSydney, Australia\nSan Francisco, CA, United States\nBerlin, Germany\nSingapore, Singapore\nShanghai, China\nHong Kong, Hong Kong\nTaipei, Taiwan"
+  },
+  {
+    "id": "maps",
+    "errors": [],
+    "failed": [
+      {
+        "status": 500,
+        "url": "http://127.0.0.1:5174/api/mapkit-token"
+      }
+    ],
+    "text": "Maps\nFile\nView\nHelp\nThu Nov 19 7:44 AM\nSearch for a place and use the card actions to save it as Home, Work, or a Favorite.\nMaps\nMaps\nApple Maps isn't configured yet. Ask the developer to add MapKit credentials.\nThe server signs short-lived MapKit tokens automatically once credentials are configured.\nMacintosh HD\niPod\nApplet Store\n\nHello! Rover here — I can open apps, play music, or answer questions. Just ask! ✨\n\nryOS is available as a Mac app\nDownload"
+  },
+  {
+    "id": "dictionary",
+    "errors": [],
+    "failed": [],
+    "text": "Dictionary\nFile\nView\nReadings\nHelp\nThu Nov 19 7:44 AM\nDictionary\nAuto\nRecent\n\nNo recent lookups\n\nLook up a word\n\nSearch in English, Chinese, Japanese, or Korean. You can also type pinyin, romaji, or an English meaning.\n\nserendipity\n學習\n勉強\n사랑\nMacintosh HD\niPod\nApplet Store\n\nHello! Rover here — I can open apps, play music, or answer questions. Just ask! ✨\n\nryOS is available as a Mac app\nDownload"
+  },
+  {
+    "id": "chats",
+    "errors": [],
+    "failed": [
+      {
+        "status": 401,
+        "url": "http://127.0.0.1:5174/api/realtime/ticket"
+      }
+    ],
+    "text": "Chats\nFile\nChats\nSound\nSettings\nHelp\nThu Nov 19 7:44 AM\n@ryo\nChats\n@ryo\n@ryo\nSign in to ryOS\nClear\nRyo\n7:44 AM\n\n👋 hey! i'm ryo. ask me anything!\n\nMacintosh HD\niPod\nApplet Store\n\nHi there! I'm Rover, your desktop assistant. Click me if you need anything! 👋\n\nryOS is available as a Mac app\nDownload"
+  },
+  {
+    "id": "ipod",
+    "errors": [],
+    "failed": [],
+    "text": "iPod\nFile\nControls\nView\nLibrary\nHelp\nThu Nov 19 7:44 AM\niPod\niPod\niPod\nMusic\nMusic\n›\nExtras\nExtras\n›\nSettings\nSettings\n›\nShuffle Songs\nShuffle Songs\nBacklight\nBacklight\nNow Playing\nNow Playing\n›\nMENU\n⏭\n⏯\n⏮\nMacintosh HD\niPod\nApplet Store\n\nHey! I'm Rover. Tip: you can drag me anywhere, and I'll snap to your windows and dock. 🪄\n\nryOS is available as a Mac app\nDownload"
+  },
+  {
+    "id": "karaoke",
+    "errors": [],
+    "failed": [],
+    "text": "Karaoke\nFile\nControls\nView\nLibrary\nHelp\nThu Nov 19 7:44 AM\nKaraoke\n\nNo songs in Karaoke\n\nAdd music from YouTube to get started.\n\nAdd Songs\nAa\nEn\nKo\nMacintosh HD\niPod\nApplet Store\n\nIt looks like you're using ryOS! Need a hand with anything? I'm Rover, happy to help. 📎\n\nryOS is available as a Mac app\nDownload"
+  },
+  {
+    "id": "videos",
+    "errors": [],
+    "failed": [],
+    "text": "Videos\nFile\nControls\nLibrary\nHelp\nThu Nov 19 7:44 AM\nVideos\nTrack\n0\n1\nTime\n00:00\nTitle\nMake Something Wonderful - Steve Jobs\nMake Something Wonderful - Steve Jobs\nSHUFFLE\nREPEAT\n→\nADD\nMacintosh HD\niPod\nApplet Store\n\nHello! Rover here — I can open apps, play music, or answer questions. Just ask! ✨\n\nryOS is available as a Mac app\nDownload"
+  },
+  {
+    "id": "tv",
+    "errors": [],
+    "failed": [],
+    "text": "TV\nFile\nControls\nChannels\nHelp\nThu Nov 19 7:44 AM\n01\niPhone 4 Introduction (2010)\n02\nOur designer built an OS with Cursor\n03\nOn Focus\n04\nMake Something Wonderful\n05\niPhone Introduction (2007)\n06\niPod Introduction (2001)\n07\nMacintosh (1984)\n08\niPod Ad (2001)\n09\nMacintosh Introduction (1984)\n10\nMacBook Air Ad (2008)\n11\niMac G4 \"Lamp\" Ad (2002)\n12\niMac G3 vs PC Simplicity (1998)\n13\nMac OS X Introduction Part 1 (2000)\n14\niPod Nano Ad (2005)\n15\nApple Back on Track (1998)\n16\niPhone 4 Ad (2010)\n17\niMac G4 Introduction (2002)\n18\nMac OS X Introduction Part 2 (2000)\n19\nA Conversation with Jony Ive\nCH 01 — RyoTV\nCH\n0\n1\nNET\nRyoTV\nNOW\nOur designer built an OS with Cursor — Cursor\nOur designer built an OS with Cursor — Cursor\nCH−\nCH+\nMacintosh HD\niPod\nApplet Store\n\nHello! Rover here — I can open apps, play music, or answer questions. Just ask! ✨\n\nryOS is available as a Mac app\nDownload"
+  },
+  {
+    "id": "winamp",
+    "errors": [],
+    "failed": [],
+    "text": "Winamp\nFile\nSkins\nControls\nHelp\nThu Nov 19 7:44 AM\nMacintosh HD\niPod\nApplet Store\n\nHello! Rover here — I can open apps, play music, or answer questions. Just ask! ✨\n\nryOS is available as a Mac app\nDownload\n1.RickAstley-NeverGonnaGiveYouUp()***1.RickAstley-NeverGonnaGiveYouUp()\n1. Rick Astley - Never Gonna Give You Up\n0:00/0:00"
+  },
+  {
+    "id": "internet-explorer",
+    "errors": [],
+    "failed": [],
+    "text": "Internet Explorer\nFile\nEdit\nFavorites\nHistory\nHelp\nThu Nov 19 7:44 AM\napple.com - Travelling\n2001\nApple\nRyo\nryOS Docs\nFriends\nWork\nTools\nSites\nFetching apple.com from year 2001…\nMacintosh HD\niPod\nApplet Store\n\nHello! Rover here — I can open apps, play music, or answer questions. Just ask! ✨\n\nryOS is available as a Mac app\nDownload"
+  },
+  {
+    "id": "infinite-mac",
+    "errors": [],
+    "failed": [],
+    "text": "Infinite Mac\nFile\nView\nHelp\nThu Nov 19 7:45 AM\nInfinite Mac\n12 SYSTEMS AVAILABLE\nSystem 1.0\n1984\nSystem 6.0.8\n1991\nSystem 7.5.3\n1996\nKanjiTalk 7.5.3\n1996\nMac OS 8.0\n1997\nMac OS 8.5\n1998\nMac OS 9.0\n1999\nMac OS 9.2.2\n2001\nMac OS X 10.1\n2001\nMac OS X 10.2\n2002\nMac OS X 10.3\n2003\nMac OS X 10.4\n2005\nMacintosh HD\niPod\nApplet Store\n\nIt looks like you're using ryOS! Need a hand with anything? I'm Rover, happy to help. 📎\n\nryOS is available as a Mac app\nDownload"
+  },
+  {
+    "id": "pc",
+    "errors": [],
+    "failed": [],
+    "text": "Virtual PC\nFile\nView\nHelp\nThu Nov 19 7:45 AM\nOS\n|\nGames\n30 SYSTEMS AVAILABLE\nFreeDOS\n1998\nMS-DOS 6.22\n1994\nWindows 1.01\n1985\nWindows 3.0\n1990\nWindows 3.1\n1992\nWindows 95\n1995\nWindows 98\n1998\nWindows ME\n2000\nWindows 2000\n2000\nLinux 2.6\n2003\nLinux 4.x\n2017\nArch Linux\n2019\nDamn Small Linux\n2006\nBuildroot Linux\n2014\nFreeBSD\n2003\nOpenBSD\n2010\nNetBSD\n2018\nHaiku\n2009\nBeOS 5\n2000\nReactOS\n2018\nKolibriOS\n2009\nOberon\n1990\nRedox\n2016\nMinix\n1987\nSerenityOS\n2018\nHelenOS\n2011\nFiwixOS\n2018\nSol OS\n2012\nDoom on a Floppy\n2024\nMikeOS\n2009\nMacintosh HD\niPod\nApplet Store\n\nHello! Rover here — I can open apps, play music, or answer questions. Just ask! ✨\n\nryOS is available as a Mac app\nDownload"
+  },
+  {
+    "id": "applet-viewer",
+    "errors": [],
+    "failed": [],
+    "text": "Applet Store\nFile\nStore\nWindow\nHelp\nThu Nov 19 7:45 AM\nApplet Store\n\nNo applets available at this time.\n\nMacintosh HD\niPod\nApplet Store\n\nIt looks like you're using ryOS! Need a hand with anything? I'm Rover, happy to help. 📎\n\nryOS is available as a Mac app\nDownload"
+  },
+  {
+    "id": "admin",
+    "errors": [],
+    "failed": [],
+    "text": "Admin\nFile\nView\nHelp\nThu Nov 19 7:45 AM\nAdmin\nAccess Denied\n\nThis application is restricted to administrators only.\n\nSign in with an admin account.\n\nMacintosh HD\niPod\nApplet Store\n\nIt looks like you're using ryOS! Need a hand with anything? I'm Rover, happy to help. 📎\n\nryOS is available as a Mac app\nDownload"
+  }
+]

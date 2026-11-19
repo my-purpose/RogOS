@@ -1,0 +1,10 @@
+[
+  {
+    "waitBeforeReloadMs": 0,
+    "retained": true
+  },
+  {
+    "waitBeforeReloadMs": 1000,
+    "retained": true
+  }
+]
