@@ -1,0 +1,19 @@
+bun test v1.4.4 (38afee6c8)
+
+tests/unit/books/test-books-highlight-default-color.test.tsx:
+(pass) books highlight color preference > defaults to the first toolbar swatch [1.48ms]
+(pass) books highlight color preference > migration backfills a missing color and drops unknown values [0.40ms]
+(pass) books highlight color preference > writes the last highlight color into the persisted books snapshot [0.12ms]
+(pass) books selection commits the last highlight color > a settled selection uses the saved color without another swatch tap [4.68ms]
+(pass) books selection commits the last highlight color > a second selected event for the same range does not add another highlight [1.19ms]
+(pass) books selection commits the last highlight color > tapping another swatch recolors the passage and becomes the new default [0.92ms]
+(pass) books selection commits the last highlight color > reselecting a saved passage keeps its color and the previous default [0.42ms]
+(pass) books selection commits the last highlight color > clears the pending highlight when the selection collapses [0.41ms]
+(pass) books selection commits the last highlight color > does not apply when the selection text changes before the pause [0.34ms]
+(pass) books selection commits the last highlight color > a swatch tap during the pause applies that color once [0.47ms]
+(pass) books selection commits the last highlight color > an overlapping selection merges into one range in the active color [1.44ms]
+
+ 11 pass
+ 0 fail
+ 41 expect() calls
+Ran 11 tests across 1 file. [109.00ms]

@@ -1,0 +1,43 @@
+tests/unit/books/test-books-highlight-default-color.test.tsx:
+(pass) books highlight color preference > defaults to the first toolbar swatch [0.19ms]
+(pass) books highlight color preference > migration backfills a missing color and drops unknown values [0.20ms]
+(pass) books highlight color preference > writes the last highlight color into the persisted books snapshot [0.13ms]
+280 | 
+281 |     await act(async () => {
+282 |       reader.emitSelected();
+283 |     });
+284 |     expect(added).toHaveLength(0);
+285 |     expect(currentApi().activeSelection).toMatchObject({
+                                               ^
+error: expect(received).toMatchObject(expected)
+
+  {
+-   "color": "blue",
++   "cfiRange": "epubcfi(/6/4!/4/2,/1:0,/1:12)",
++   "color": "yellow",
+    "kind": "selection",
++   "text": "highlighted words",
+  }
+
+- Expected  - 1
++ Received  + 3
+
+      at <anonymous> (/Users/david/Documents/RogOS/tests/unit/books/test-books-highlight-default-color.test.tsx:285:42)
+(fail) books selection commits the last highlight color > a settled selection uses the saved color without another swatch tap [3.21ms]
+(pass) books selection commits the last highlight color > a second selected event for the same range does not add another highlight [0.55ms]
+(pass) books selection commits the last highlight color > tapping another swatch recolors the passage and becomes the new default [0.40ms]
+(pass) books selection commits the last highlight color > reselecting a saved passage keeps its color and the previous default [0.21ms]
+(pass) books selection commits the last highlight color > clears the pending highlight when the selection collapses [0.21ms]
+(pass) books selection commits the last highlight color > does not apply when the selection text changes before the pause [0.20ms]
+(pass) books selection commits the last highlight color > a swatch tap during the pause applies that color once [0.24ms]
+(pass) books selection commits the last highlight color > an overlapping selection merges into one range in the active color [0.95ms]
+
+1 tests failed:
+(fail) books selection commits the last highlight color > a settled selection uses the saved color without another swatch tap [3.21ms]
+
+ 4252 pass
+ 4 skip
+ 1 fail
+ 37945 expect() calls
+Ran 4257 tests across 500 files. [41.49s]
+error: script "test:unit" exited with code 1
