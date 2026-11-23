@@ -4689,6 +4689,14 @@
       "untitled": "名称未設定"
     },
     "soundboard": {
+      "slot": {
+        "record": "録音",
+        "recording": "録音中…"
+      },
+      "errors": {
+        "microphonePermissionDenied": "マイクへのアクセスが拒否されました。ブラウザでマイクへのアクセスを許可してから、もう一度お試しください。",
+        "recordingFailed": "録音を開始できませんでした。マイクを確認して、もう一度お試しください。"
+      },
       "description": "サウンドエフェクトを再生",
       "help": {
         "customizeSlot": {

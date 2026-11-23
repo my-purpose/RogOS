@@ -4701,6 +4701,14 @@
       "untitled": "Senza titolo"
     },
     "soundboard": {
+      "slot": {
+        "record": "Registra",
+        "recording": "Registrazione…"
+      },
+      "errors": {
+        "microphonePermissionDenied": "Accesso al microfono negato. Consenti l’accesso al microfono nel browser e riprova.",
+        "recordingFailed": "Impossibile avviare la registrazione. Controlla il microfono e riprova."
+      },
       "description": "Riproduci effetti audio",
       "help": {
         "customizeSlot": {

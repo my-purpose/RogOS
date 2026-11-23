@@ -1,3 +1,4 @@
+import { settleAllPersistWrites } from "@/utils/persistWriteQueue";
 import { useEffect, useRef, useState, useCallback } from "react";
 import type { ChangeEvent } from "react";
 import { useSoundboard } from "@/hooks/useSoundboard";
@@ -125,13 +126,14 @@ export function useSoundboardLogic({
     playbackStatesRef.current = playbackStates;
   }, [playbackStates]);
 
-  const handleRecordingComplete = (base64Data: string, format: string) => {
+  const handleRecordingComplete = async (base64Data: string, format: string) => {
     const activeSlot = activeSlotRef.current;
     if (activeSlot !== null && activeBoardId) {
       updateSlot(activeSlot, {
         audioData: base64Data,
         audioFormat: format as "webm" | "mp4" | "wav" | "mpeg",
       });
+      await settleAllPersistWrites();
     }
   };
 

@@ -1,0 +1,322 @@
+[
+  {
+    "id": "soundboard",
+    "status": "pass",
+    "detail": {
+      "played": [
+        {
+          "time": 0.488707
+        }
+      ]
+    },
+    "errors": [],
+    "responses": [
+      {
+        "networkError": "net::ERR_ABORTED",
+        "url": "http://127.0.0.1:5174/version.json"
+      },
+      {
+        "networkError": "net::ERR_ABORTED",
+        "url": "http://127.0.0.1:5174/version.json"
+      }
+    ]
+  },
+  {
+    "id": "soundboard",
+    "status": "pass",
+    "detail": "Denied microphone shows actionable error",
+    "errors": [],
+    "responses": [
+      {
+        "networkError": "net::ERR_ABORTED",
+        "url": "http://127.0.0.1:5174/version.json"
+      },
+      {
+        "networkError": "net::ERR_ABORTED",
+        "url": "http://127.0.0.1:5174/version.json"
+      }
+    ]
+  },
+  {
+    "id": "photo-booth",
+    "status": "pass",
+    "detail": "Denied camera shows actionable error",
+    "errors": [],
+    "responses": [
+      {
+        "networkError": "net::ERR_ABORTED",
+        "url": "http://127.0.0.1:5174/version.json"
+      },
+      {
+        "networkError": "net::ERR_ABORTED",
+        "url": "http://127.0.0.1:5174/version.json"
+      }
+    ]
+  },
+  {
+    "id": "synth",
+    "status": "pass",
+    "detail": {
+      "activeKeyCount": 1,
+      "oscillatorsStarted": 6,
+      "preset": "Pad",
+      "limitation": "Web Audio operation verified; no listening or MIDI hardware certification"
+    },
+    "errors": [],
+    "responses": [
+      {
+        "networkError": "net::ERR_ABORTED",
+        "url": "http://127.0.0.1:5174/version.json"
+      },
+      {
+        "networkError": "net::ERR_ABORTED",
+        "url": "http://127.0.0.1:5174/version.json"
+      }
+    ]
+  },
+  {
+    "id": "dictionary",
+    "status": "pass",
+    "detail": "Dictionary\nFile\nView\nReadings\nHelp\nSat Nov 21 3:02 PM\nDictionary\nEnglish\nResults\nserendipity\ngood luck in making unexpected and fortunate discoveries\nserendipity\n1\nnoungood luck in making unexpected and fortunate discoveries\nAI Notes\nExplain Usage\nSources: WordNet (WordNet 3.1 © 2011 Princeton University)\nMacintosh HD\niPod\nApplet Store\n\nHello! Rover here — I can open apps, play music, or answer questions. Just ask! ✨\n\nryOS is available as a Mac app\nDownload",
+    "errors": [],
+    "responses": [
+      {
+        "networkError": "net::ERR_ABORTED",
+        "url": "http://127.0.0.1:5174/version.json"
+      },
+      {
+        "networkError": "net::ERR_ABORTED",
+        "url": "http://127.0.0.1:5174/version.json"
+      }
+    ]
+  },
+  {
+    "id": "soundboard",
+    "status": "fail",
+    "error": "AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:\n+ actual - expected\n\n+ 9024\n- undefined\n",
+    "text": "Soundboard\nFile\nEdit\nView\nHelp\nSat Nov 21 3:02 PM\nNew Soundboard\nSoundboards\nRyo\nNewJeans\nNew Soundboard\nNew Soundboard\nMacintosh HD\niPod\nApplet Store",
+    "errors": [],
+    "responses": [
+      {
+        "networkError": "net::ERR_ABORTED",
+        "url": "http://127.0.0.1:5174/version.json"
+      },
+      {
+        "networkError": "net::ERR_ABORTED",
+        "url": "http://127.0.0.1:5174/version.json"
+      },
+      {
+        "networkError": "net::ERR_ABORTED",
+        "url": "http://127.0.0.1:5174/version.json"
+      }
+    ]
+  },
+  {
+    "id": "photo-booth",
+    "status": "pass",
+    "detail": {
+      "syntheticCamera": true,
+      "capturedPhotoCount": 1,
+      "limitation": "Synthetic stream, not physical camera certification"
+    },
+    "errors": [],
+    "responses": [
+      {
+        "networkError": "net::ERR_ABORTED",
+        "url": "http://127.0.0.1:5174/version.json"
+      },
+      {
+        "networkError": "net::ERR_ABORTED",
+        "url": "http://127.0.0.1:5174/version.json"
+      },
+      {
+        "networkError": "net::ERR_ABORTED",
+        "url": "http://127.0.0.1:5174/version.json"
+      }
+    ]
+  },
+  {
+    "id": "winamp",
+    "status": "blocked",
+    "detail": {
+      "blocked": "External playback did not reach verified advancing media within 6 seconds",
+      "media": [
+        {
+          "time": 0,
+          "duration": null,
+          "paused": true
+        }
+      ],
+      "frames": [
+        "http://127.0.0.1:5174/"
+      ],
+      "text": "Winamp\nFile\nSkins\nControls\nHelp\nSat Nov 21 3:02 PM\nMacintosh HD\niPod\nApplet Store\n\nHello! Rover here — I can open apps, play music, or answer questions. Just ask! ✨\n\nryOS is available as a Mac app\nDownload\n1.RickAstley-NeverGonnaGiveYouUp()***1.RickAstley-NeverGonnaGiveYouUp()\n192\n44\n1. Rick Astley - Never Gonna Give You Up\n0:00/0:00"
+    },
+    "errors": [],
+    "responses": [
+      {
+        "networkError": "net::ERR_ABORTED",
+        "url": "http://127.0.0.1:5174/version.json"
+      },
+      {
+        "networkError": "net::ERR_ABORTED",
+        "url": "http://127.0.0.1:5174/version.json"
+      }
+    ]
+  },
+  {
+    "id": "videos",
+    "status": "pass",
+    "detail": {
+      "media": [
+        {
+          "time": 0,
+          "duration": null,
+          "paused": true
+        },
+        {
+          "time": 5.897325,
+          "duration": 52.001,
+          "paused": false
+        }
+      ],
+      "frames": [
+        "http://127.0.0.1:5174/",
+        "https://www.youtube.com/embed/0pP3ZjMDzF4?autoplay=0&mute=0&controls=0&origin=http%3A%2F%2F127.0.0.1%3A5174&playsinline=1&showinfo=0&rel=0&iv_load_policy=3&modestbranding=1&disablekb=1&enablejsapi=1&fs=0&widgetid=1&forigin=http%3A%2F%2F127.0.0.1%3A5174%2F&aoriginsup=1&vf=4"
+      ]
+    },
+    "errors": [],
+    "responses": [
+      {
+        "networkError": "net::ERR_ABORTED",
+        "url": "http://127.0.0.1:5174/version.json"
+      },
+      {
+        "networkError": "net::ERR_ABORTED",
+        "url": "http://127.0.0.1:5174/version.json"
+      },
+      {
+        "networkError": "net::ERR_CONNECTION_CLOSED",
+        "url": "https://static.doubleclick.net/instream/ad_status.js"
+      }
+    ]
+  },
+  {
+    "id": "tv",
+    "status": "pass",
+    "detail": {
+      "media": [
+        {
+          "time": 0,
+          "duration": null,
+          "paused": true
+        },
+        {
+          "time": 71.839375,
+          "duration": 89.761,
+          "paused": false
+        }
+      ],
+      "frames": [
+        "http://127.0.0.1:5174/",
+        "https://www.youtube.com/embed/EKBVLzOZyLw?autoplay=0&mute=0&controls=0&origin=http%3A%2F%2F127.0.0.1%3A5174&playsinline=1&showinfo=0&rel=0&iv_load_policy=3&modestbranding=1&disablekb=1&enablejsapi=1&fs=0&widgetid=1&forigin=http%3A%2F%2F127.0.0.1%3A5174%2F&aoriginsup=1&vf=4"
+      ]
+    },
+    "errors": [],
+    "responses": [
+      {
+        "networkError": "net::ERR_ABORTED",
+        "url": "http://127.0.0.1:5174/version.json"
+      },
+      {
+        "networkError": "net::ERR_ABORTED",
+        "url": "http://127.0.0.1:5174/version.json"
+      },
+      {
+        "networkError": "net::ERR_CONNECTION_CLOSED",
+        "url": "https://static.doubleclick.net/instream/ad_status.js"
+      }
+    ]
+  },
+  {
+    "id": "ipod",
+    "status": "fail",
+    "error": "TimeoutError: locator.click: Timeout 12000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('menuitem', { name: 'Export Library…', exact: true })\u001b[22m\n\u001b[2m    - locator resolved to <div tabindex=\"-1\" role=\"menuitem\" data-disabled=\"\" aria-disabled=\"true\" data-orientation=\"vertical\" data-radix-collection-item=\"\" class=\"relative flex cursor-default select-none items-center gap-2 py-1.5 outline-none transition-colors data-[disabled]:pointer-events-none data-[disabled]:opacity-50 [&>svg]:size-4 [&>svg]:shrink-0 rounded-none focus:bg-[var(--os-color-selection-bg)] focus:text-[var(--os-color-selection-text)] text-md h-6 px-3 data-[state=checked]:!bg-transparent data-[state=checked]:…>Export Library…</div>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is not stable\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m    - element is not stable\u001b[22m\n\u001b[2m  2 × retrying click action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m      - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is not enabled\u001b[22m\n\u001b[2m  22 × retrying click action\u001b[22m\n\u001b[2m       - waiting 500ms\u001b[22m\n\u001b[2m       - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m       - element is not enabled\u001b[22m\n\u001b[2m  - retrying click action\u001b[22m\n\u001b[2m    - waiting 500ms\u001b[22m\n",
+    "text": "iPod\nFile\nControls\nView\nLibrary\nHelp\nSat Nov 21 3:03 PM\niPod\niPod\niPod\nMusic\nMusic\n›\nExtras\nExtras\n›\nSettings\nSettings\n›\nShuffle Songs\nShuffle Songs\nBacklight\nBacklight\nNow Playing\nNow Playing\n›\nMENU\n⏭\n⏯\n⏮\nMacintosh HD\niPod\nApplet Store\n\nHey! I'm Rover. Tip: you can drag me anywhere, and I'll snap to your windows and dock. 🪄\n\nryOS is available as a Mac app\nDownload\nAdd Song…\nShare Song…\nExport Library…\nImport Library…\nClear Library…\nSync Library…\nSwitch to Apple Music\nClose\n⌥W",
+    "errors": [],
+    "responses": [
+      {
+        "networkError": "net::ERR_ABORTED",
+        "url": "http://127.0.0.1:5174/version.json"
+      },
+      {
+        "networkError": "net::ERR_ABORTED",
+        "url": "http://127.0.0.1:5174/version.json"
+      }
+    ]
+  },
+  {
+    "id": "karaoke",
+    "status": "blocked",
+    "detail": {
+      "addDialog": "Karaoke\nFile\nControls\nView\nLibrary\nHelp\nSat Nov 21 3:03 PM\nKaraoke\n\nNo songs in Karaoke\n\nAdd music from YouTube to get started.\n\nAdd Songs\nAa\nEn\nKo\nMacintosh HD\niPod\nApplet Store\nryOS is available as a Mac app\nDownload\nAdd Song\n\nSearch song, artist, or paste YouTube URL\n\nSearch song, artist, or paste YouTube URL\n\nSearch",
+      "blocked": "Empty music library; lyrics and cross-client sync need populated external media"
+    },
+    "errors": [],
+    "responses": [
+      {
+        "networkError": "net::ERR_ABORTED",
+        "url": "http://127.0.0.1:5174/version.json"
+      },
+      {
+        "networkError": "net::ERR_ABORTED",
+        "url": "http://127.0.0.1:5174/version.json"
+      }
+    ]
+  },
+  {
+    "id": "dashboard",
+    "status": "pass",
+    "detail": {
+      "widgetPicker": "Dashboard\nFile\nHelp\nSat Nov 21 3:03 PM\nMacintosh HD\niPod\nApplet Store\nryOS is available as a Mac app\nDownload\n3:03 PM\n12\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\nSHANGHAI\nDone\nUse My Location\nNew York, NY, United States\nLondon, United Kingdom\nTokyo, Japan\nParis, France\nSydney, Australia\nSan Francisco, CA, United States\nBerlin, Germany\nSingapore, Singapore\nShanghai, China\nHong Kong, Hong Kong\nTaipei, Taiwan\nSat\nNov\n21\nS\nM\nT\nW\nT\nF\nS\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\n25\n26\n27\n28\n29\n30\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\nDone\nShow Colors\nBlue\n✓\nRed\n✓\nGreen\n✓\nOrange\n✓\nPurple\n✓\nH: 13°\nSan Francisco\nL: 8°\n8°\nSAT\nSUN\nMON\nTUE\nWED\nTHU\n13°\n13°\n15°\n16°\n16°\n16°\nDone\nUse My Location\nNew York, NY, United States\nLondon, United Kingdom\nTokyo, Japan\nParis, France\nSydney, Australia\nSan Francisco, CA, United States\nBerlin, Germany\nSingapore, Singapore\nShanghai, China\nHong Kong, Hong Kong\nTaipei, Taiwan\nClock\nCalendar\nWeather\nStocks\niPod\nTranslation\nCurrency Converter\nSticky Note\nDictionary\nAquarium\nTerrarium",
+      "weather": "Observed rendered temperature from provider, not ongoing availability guarantee"
+    },
+    "errors": [],
+    "responses": [
+      {
+        "networkError": "net::ERR_ABORTED",
+        "url": "http://127.0.0.1:5174/version.json"
+      },
+      {
+        "networkError": "net::ERR_ABORTED",
+        "url": "http://127.0.0.1:5174/version.json"
+      }
+    ]
+  },
+  {
+    "id": "internet-explorer",
+    "status": "blocked",
+    "detail": {
+      "blocked": "Initial state inspected; external service, image or account dependent core operation not certified",
+      "text": "Internet Explorer\nFile\nEdit\nFavorites\nHistory\nHelp\nSat Nov 21 3:03 PM\napple.com\n2001\nApple\nRyo\nryOS Docs\nFriends\nWork\nTools\nSites\nError\n\nPrivate or reserved IPs are not allowed\n\nPrivate or reserved IPs are not allowed\n\nPlease try the following:\n\nCheck the web address you typed and try again.\nGo back to the previous page.\nTry refreshing the page.\nPrivate or reserved IPs are not allowed\nHost: apple.com\nMacintosh HD\niPod\nApplet Store\n\nHi there! I'm Rover, your desktop assistant. Click me if you need anything! 👋\n\nryOS is available as a Mac app\nDownload",
+      "frames": [
+        "http://127.0.0.1:5174/"
+      ]
+    },
+    "errors": [],
+    "responses": [
+      {
+        "networkError": "net::ERR_ABORTED",
+        "url": "http://127.0.0.1:5174/version.json"
+      },
+      {
+        "status": 400,
+        "url": "http://127.0.0.1:5174/api/iframe-check?url=https%3A%2F%2Fapple.com&year=2001&month=11&theme=macosx&ieFrame=CFLRRRYWyv2Thdea5-dC7rJI.1795244600863"
+      },
+      {
+        "networkError": "net::ERR_ABORTED",
+        "url": "http://127.0.0.1:5174/version.json"
+      }
+    ]
+  }
+]

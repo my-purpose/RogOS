@@ -1,0 +1,10 @@
+[
+  {
+    "case": "multi-day all-day export with exclusive end and Chinese notes",
+    "pass": true
+  },
+  {
+    "case": "import into clean context then reload retains date and notes",
+    "pass": true
+  }
+]

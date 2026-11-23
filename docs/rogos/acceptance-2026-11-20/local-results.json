@@ -1,0 +1,85 @@
+[
+  {
+    "id": "journal",
+    "status": "pass",
+    "evidence": [
+      "daily Chinese text survives reload after 1 second",
+      "freeform note survives reload"
+    ],
+    "errors": []
+  },
+  {
+    "id": "stickies",
+    "status": "pass",
+    "evidence": {
+      "saved": [
+        "",
+        "Acceptance sticky 中文",
+        "Acceptance second note"
+      ],
+      "afterClear": [
+        ""
+      ]
+    },
+    "errors": []
+  },
+  {
+    "id": "terminal",
+    "status": "partial",
+    "evidence": {
+      "limitation": "mkdir is advertised but explicitly unimplemented; directory creation not passed",
+      "commands": [
+        "help",
+        "cd Documents",
+        "touch",
+        "ls",
+        "echo",
+        "unknown command",
+        "rm"
+      ],
+      "output": "Terminal\nFile\nEdit\nView\nHelp\nFri Nov 20 9:54 PM\nTerminal\n     __  __ \n _  /  \\(_  \n| \\/\\__/__) \n  /         \nlast login: 9:54:48 PM\ntype 'help' to see available commands\n\n\n→ /\nhelp\n\nnavigation & files\n  pwd              Show current directory\n  ls               List directory contents\n  cd <dir>         Change directory\n  cat <file>       View file contents\n  touch <file>     Create empty file\n  mkdir <dir>      Create directory\n  rm <file>        Move file to trash\n  open <target>    Open app, file, or applet\n  edit <file>      Open in text editor\n  vim <file>       Open file in vim editor\n  grep <pat> <f>   Search pattern in file\n\nterminal\n  clear            Clear terminal screen\n  help             Show available commands\n  history          Show command history\n  about            About Terminal\n  echo <text>      Display text\n  whoami           Display current user\n  su <user> [pass] Switch or create user\n  logout           Log out current user\n  date             Display current date/time\n  cowsay <text>    A talking cow\n  uptime           Show system uptime\n\nassistant\n  ryo <prompt>     Chat with ryo\n  ai <prompt>      Enter AI chat mode with ryo\n  chat <prompt>    Chat with ryo (alias)\n\n\n→ /\nmkdir acceptance-dir\ncommand not implemented: mkdir requires filesystem write access\n→ /\ncd Documents\n→ /Documents\ntouch sample.txt\ncreated file: sample.txt\n→ /Documents\nls\nREADME.md\nQuick Tips.md\nsample.txt\n→ /Documents\necho Acceptance terminal 中文\nAcceptance terminal 中文\n→ /Documents\nnot-a-command\ncommand not found: not-a-command. type 'help' for a list of available commands.\n→ /Documents\nMacintosh HD\niPod\nApplet Store\n\nHello! Rover here — I can open apps, play music, or answer questions. Just ask! ✨\n\nryOS is available as a Mac app\nDownload"
+    },
+    "errors": []
+  },
+  {
+    "id": "paint",
+    "status": "pass",
+    "evidence": [
+      "stroke changes pixels",
+      "Undo restores exact original pixels",
+      "Redo restores exact drawn pixels"
+    ],
+    "errors": []
+  },
+  {
+    "id": "finder",
+    "status": "pass",
+    "evidence": [
+      "duplicate folder name rejected",
+      "README.md moved into folder by drag and retained after reload"
+    ],
+    "errors": []
+  },
+  {
+    "id": "textedit",
+    "status": "pass",
+    "evidence": [
+      "HTML heading, bold, list, Chinese imported",
+      "HTML exported bytes checked and reimported with structure intact",
+      "RTF two paragraphs imported"
+    ],
+    "errors": []
+  },
+  {
+    "id": "preview",
+    "status": "pass",
+    "evidence": {
+      "invalidImageMessage": "Preview\nFile\nView\nHelp\nFri Nov 20 9:55 PM\nbroken.png\n⚠️\nCouldn’t open this file.\nMacintosh HD\niPod\nApplet Store\n\nHello! Rover here — I can open apps, play music, or answer questions. Just ask! ✨\n\nFile imported\nbroken.png\nryOS is available as a Mac app\nDownload",
+      "subsequentValidImage": {
+        "w": 40,
+        "h": 30
+      }
+    },
+    "errors": []
+  }
+]

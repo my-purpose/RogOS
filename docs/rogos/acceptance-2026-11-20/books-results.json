@@ -1,0 +1,83 @@
+[
+  {
+    "test": "import EPUB and render chapter",
+    "passed": true
+  },
+  {
+    "test": "add bookmark",
+    "passed": true
+  },
+  {
+    "test": "mouse selection automatically highlights",
+    "passed": true,
+    "text": "Acceptance reading passage for pe"
+  },
+  {
+    "test": "change highlight to blue",
+    "passed": true
+  },
+  {
+    "test": "chapter navigation updates progress",
+    "passed": true,
+    "progress": {
+      "cfi": "epubcfi(/6/4!/4/2/1:0)",
+      "percentage": 0.6666666666666666,
+      "updatedAt": 1795182865796
+    }
+  },
+  {
+    "test": "refresh restores book, progress, blue highlight and bookmark",
+    "passed": true,
+    "state": {
+      "highlights": [
+        {
+          "id": "da6e4a4d-0bf7-4780-9e86-33ecb83221cd",
+          "cfiRange": "epubcfi(/6/2!/4/4[passage],/1:0,/1:33)",
+          "text": "Acceptance reading passage for pe",
+          "color": "blue",
+          "createdAt": 1795182864564
+        }
+      ],
+      "bookmarks": [
+        {
+          "cfi": "epubcfi(/6/2!/4/2/1:0)",
+          "text": "First ChapterAcceptance reading passage for persistent highlighting.Paragraph 1.",
+          "percentage": 0,
+          "createdAt": 1795182863598
+        }
+      ],
+      "progress": {
+        "cfi": "epubcfi(/6/4!/4/2/1:0)",
+        "percentage": 0.6666666666666666,
+        "updatedAt": 1795182865796
+      },
+      "color": "blue"
+    }
+  },
+  {
+    "test": "remove bookmark",
+    "passed": true
+  },
+  {
+    "test": "shelf button center is clickable at viewport 1440",
+    "passed": true,
+    "windowWidth": 720
+  },
+  {
+    "test": "shelf button center is clickable at viewport 1000",
+    "passed": true,
+    "windowWidth": 600
+  },
+  {
+    "test": "close to shelf and reopen imported book",
+    "passed": true
+  },
+  {
+    "test": "bookmark deletion persists after second reload",
+    "passed": true
+  },
+  {
+    "test": "restored blue highlight visible in drawer",
+    "passed": true
+  }
+]

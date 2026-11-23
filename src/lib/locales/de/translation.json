@@ -4689,6 +4689,14 @@
       "untitled": "Ohne Titel"
     },
     "soundboard": {
+      "slot": {
+        "record": "Aufnehmen",
+        "recording": "Aufnahme läuft…"
+      },
+      "errors": {
+        "microphonePermissionDenied": "Mikrofonzugriff verweigert. Erlaube den Mikrofonzugriff im Browser und versuche es erneut.",
+        "recordingFailed": "Die Aufnahme konnte nicht gestartet werden. Überprüfe dein Mikrofon und versuche es erneut."
+      },
       "description": "Soundeffekte abspielen",
       "help": {
         "customizeSlot": {

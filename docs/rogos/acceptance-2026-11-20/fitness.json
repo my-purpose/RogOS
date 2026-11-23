@@ -1,0 +1,10 @@
+[
+  {
+    "case": "log 8 reps at 60kg; volume 480kg and personal record update",
+    "pass": true
+  },
+  {
+    "case": "workout and personal record survive reload",
+    "pass": true
+  }
+]

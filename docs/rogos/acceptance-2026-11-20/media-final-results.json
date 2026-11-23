@@ -1,0 +1,479 @@
+[
+  {
+    "id": "soundboard",
+    "status": "pass",
+    "detail": {
+      "played": [
+        {
+          "time": 0.482988
+        }
+      ]
+    },
+    "errors": [],
+    "responses": [
+      {
+        "networkError": "net::ERR_ABORTED",
+        "url": "http://127.0.0.1:5174/version.json"
+      },
+      {
+        "networkError": "net::ERR_ABORTED",
+        "url": "http://127.0.0.1:5174/version.json"
+      }
+    ],
+    "evidence": "media-results.json"
+  },
+  {
+    "id": "soundboard",
+    "status": "pass",
+    "detail": "Denied microphone shows actionable error",
+    "errors": [],
+    "responses": [
+      {
+        "networkError": "net::ERR_ABORTED",
+        "url": "http://127.0.0.1:5174/version.json"
+      },
+      {
+        "networkError": "net::ERR_ABORTED",
+        "url": "http://127.0.0.1:5174/version.json"
+      }
+    ],
+    "evidence": "media-results.json"
+  },
+  {
+    "id": "photo-booth",
+    "status": "pass",
+    "detail": "Denied camera shows actionable error",
+    "errors": [],
+    "responses": [
+      {
+        "networkError": "net::ERR_ABORTED",
+        "url": "http://127.0.0.1:5174/version.json"
+      },
+      {
+        "networkError": "net::ERR_ABORTED",
+        "url": "http://127.0.0.1:5174/version.json"
+      }
+    ],
+    "evidence": "media-results.json"
+  },
+  {
+    "id": "synth",
+    "status": "pass",
+    "detail": {
+      "activeKeyCount": 1,
+      "oscillatorsStarted": 6,
+      "preset": "Pad",
+      "limitation": "Web Audio operation verified; no listening or MIDI hardware certification"
+    },
+    "errors": [],
+    "responses": [
+      {
+        "networkError": "net::ERR_ABORTED",
+        "url": "http://127.0.0.1:5174/version.json"
+      },
+      {
+        "networkError": "net::ERR_ABORTED",
+        "url": "http://127.0.0.1:5174/version.json"
+      }
+    ],
+    "evidence": "media-results.json"
+  },
+  {
+    "id": "dictionary",
+    "status": "pass",
+    "detail": "Dictionary\nFile\nView\nReadings\nHelp\nMon Nov 23 12:58 PM\nDictionary\nEnglish\nResults\nserendipity\ngood luck in making unexpected and fortunate discoveries\nserendipity\n1\nnoungood luck in making unexpected and fortunate discoveries\nAI Notes\nExplain Usage\nSources: WordNet (WordNet 3.1 © 2011 Princeton University)\nMacintosh HD\niPod\nApplet Store\n\nIt looks like you're using ryOS! Need a hand with anything? I'm Rover, happy to help. 📎\n\nryOS is available as a Mac app\nDownload",
+    "errors": [],
+    "responses": [
+      {
+        "networkError": "net::ERR_ABORTED",
+        "url": "http://127.0.0.1:5174/version.json"
+      },
+      {
+        "networkError": "net::ERR_ABORTED",
+        "url": "http://127.0.0.1:5174/version.json"
+      }
+    ],
+    "evidence": "media-results.json"
+  },
+  {
+    "id": "soundboard",
+    "status": "pass",
+    "detail": {
+      "syntheticMicrophone": true,
+      "savedBytes": 7736,
+      "restoredBytes": 7736
+    },
+    "errors": [],
+    "responses": [
+      {
+        "networkError": "net::ERR_ABORTED",
+        "url": "http://127.0.0.1:5174/version.json"
+      },
+      {
+        "networkError": "net::ERR_ABORTED",
+        "url": "http://127.0.0.1:5174/version.json"
+      },
+      {
+        "networkError": "net::ERR_ABORTED",
+        "url": "http://127.0.0.1:5174/version.json"
+      }
+    ],
+    "evidence": "media-recording-results.json",
+    "supersedes": "media-results.json recording failure"
+  },
+  {
+    "id": "photo-booth",
+    "status": "pass",
+    "detail": {
+      "syntheticCamera": true,
+      "capturedPhotoCount": 1,
+      "limitation": "Synthetic stream, not physical camera certification"
+    },
+    "errors": [],
+    "responses": [
+      {
+        "networkError": "net::ERR_ABORTED",
+        "url": "http://127.0.0.1:5174/version.json"
+      },
+      {
+        "networkError": "net::ERR_ABORTED",
+        "url": "http://127.0.0.1:5174/version.json"
+      },
+      {
+        "networkError": "net::ERR_ABORTED",
+        "url": "http://127.0.0.1:5174/version.json"
+      }
+    ],
+    "evidence": "media-results.json"
+  },
+  {
+    "id": "winamp",
+    "status": "blocked",
+    "detail": {
+      "blocked": "External playback did not reach verified advancing media within 6 seconds",
+      "media": [
+        {
+          "time": 0,
+          "duration": null,
+          "paused": true
+        }
+      ],
+      "frames": [
+        "http://127.0.0.1:5174/"
+      ],
+      "text": "Winamp\nFile\nSkins\nControls\nHelp\nMon Nov 23 12:58 PM\nMacintosh HD\niPod\nApplet Store\n\nHi there! I'm Rover, your desktop assistant. Click me if you need anything! 👋\n\nryOS is available as a Mac app\nDownload\n1.RickAstley-NeverGonnaGiveYouUp()***1.RickAstley-NeverGonnaGiveYouUp()\n192\n44\n1. Rick Astley - Never Gonna Give You Up\n0:00/0:00"
+    },
+    "errors": [],
+    "responses": [
+      {
+        "networkError": "net::ERR_ABORTED",
+        "url": "http://127.0.0.1:5174/version.json"
+      },
+      {
+        "networkError": "net::ERR_ABORTED",
+        "url": "http://127.0.0.1:5174/version.json"
+      }
+    ],
+    "evidence": "media-results.json"
+  },
+  {
+    "id": "videos",
+    "status": "pass",
+    "detail": {
+      "media": [
+        {
+          "time": 0,
+          "duration": null,
+          "paused": true
+        },
+        {
+          "time": 5.812677,
+          "duration": 52.001,
+          "paused": false
+        }
+      ],
+      "frames": [
+        "http://127.0.0.1:5174/",
+        "https://www.youtube.com/embed/0pP3ZjMDzF4?autoplay=0&mute=0&controls=0&origin=http%3A%2F%2F127.0.0.1%3A5174&playsinline=1&showinfo=0&rel=0&iv_load_policy=3&modestbranding=1&disablekb=1&enablejsapi=1&fs=0&widgetid=1&forigin=http%3A%2F%2F127.0.0.1%3A5174%2F&aoriginsup=1&vf=4"
+      ]
+    },
+    "errors": [],
+    "responses": [
+      {
+        "networkError": "net::ERR_ABORTED",
+        "url": "http://127.0.0.1:5174/version.json"
+      },
+      {
+        "networkError": "net::ERR_ABORTED",
+        "url": "http://127.0.0.1:5174/version.json"
+      },
+      {
+        "networkError": "net::ERR_CONNECTION_CLOSED",
+        "url": "https://static.doubleclick.net/instream/ad_status.js"
+      }
+    ],
+    "evidence": "media-results.json"
+  },
+  {
+    "id": "tv",
+    "status": "blocked",
+    "detail": {
+      "blocked": "External playback did not reach verified advancing media within 6 seconds",
+      "media": [
+        {
+          "time": 0,
+          "duration": null,
+          "paused": true
+        },
+        {
+          "time": 0.088602,
+          "duration": 60.281,
+          "paused": true
+        }
+      ],
+      "frames": [
+        "http://127.0.0.1:5174/",
+        "https://www.youtube.com/embed/2B-XwPjn9YY?autoplay=0&mute=0&controls=0&origin=http%3A%2F%2F127.0.0.1%3A5174&playsinline=1&showinfo=0&rel=0&iv_load_policy=3&modestbranding=1&disablekb=1&enablejsapi=1&fs=0&widgetid=1&forigin=http%3A%2F%2F127.0.0.1%3A5174%2F&aoriginsup=1&vf=4"
+      ],
+      "text": "TV\nFile\nControls\nChannels\nHelp\nMon Nov 23 12:59 PM\n01\nMacintosh Introduction (1984)\n02\niPhone Introduction (2007)\n03\niPod Ad (2001)\n04\niMac G4 \"Lamp\" Ad (2002)\n05\nA Conversation with Jony Ive\n06\nMac OS X Introduction Part 2 (2000)\n07\nOur designer built an OS with Cursor\n08\nMake Something Wonderful\n09\niPhone 4 Introduction (2010)\n10\nMac OS X Introduction Part 1 (2000)\n11\nApple Back on Track (1998)\n12\niMac G3 vs PC Simplicity (1998)\n13\nMacBook Air Ad (2008)\n14\niPod Nano Ad (2005)\n15\niPod Introduction (2001)\n16\nMacintosh (1984)\n17\niPhone 4 Ad (2010)\n18\niMac G4 Introduction (2002)\n19\nOn Focus\nCH 01 — RyoTV\nCH\n0\n1\nNET\nRyoTV\nNOW\niPod Ad (2001) — Apple Computer\niPod Ad (2001) — Apple Computer\nCH−\nCH+\nMacintosh HD\niPod\nApplet Store\n\nHey! I'm Rover. Tip: you can drag me anywhere, and I'll snap to your windows and dock. 🪄\n\nryOS is available as a Mac app\nDownload"
+    },
+    "errors": [],
+    "responses": [
+      {
+        "networkError": "net::ERR_ABORTED",
+        "url": "http://127.0.0.1:5174/version.json"
+      },
+      {
+        "networkError": "net::ERR_ABORTED",
+        "url": "http://127.0.0.1:5174/version.json"
+      },
+      {
+        "networkError": "net::ERR_CONNECTION_CLOSED",
+        "url": "https://static.doubleclick.net/instream/ad_status.js"
+      }
+    ],
+    "evidence": "media-results.json"
+  },
+  {
+    "id": "ipod",
+    "status": "blocked",
+    "detail": {
+      "menu": [
+        "",
+        "iPod",
+        "File",
+        "Controls",
+        "View",
+        "Library",
+        "Help",
+        "",
+        "Play",
+        "Previous",
+        "Next"
+      ],
+      "emptyLibraryExportDisabled": true,
+      "exportDialog": "iPod\nFile\nControls\nView\nLibrary\nHelp\nMon Nov 23 12:59 PM\niPod\niPod\niPod\nMusic\nMusic\n›\nExtras\nExtras\n›\nSettings\nSettings\n›\nShuffle Songs\nShuffle Songs\nBacklight\nBacklight\nNow Playing\nNow Playing\n›\nMENU\n⏭\n⏯\n⏮\nMacintosh HD\niPod\nApplet Store\nryOS is available as a Mac app\nDownload\nAdd Song…\nShare Song…\nExport Library…\nImport Library…\nClear Library…\nSync Library…\nSwitch to Apple Music\nClose\n⌥W",
+      "blocked": "No configured music provider/library; actual playback not certified"
+    },
+    "errors": [],
+    "responses": [
+      {
+        "networkError": "net::ERR_ABORTED",
+        "url": "http://127.0.0.1:5174/version.json"
+      },
+      {
+        "networkError": "net::ERR_ABORTED",
+        "url": "http://127.0.0.1:5174/version.json"
+      }
+    ],
+    "evidence": "media-results.json"
+  },
+  {
+    "id": "karaoke",
+    "status": "blocked",
+    "detail": {
+      "addDialog": "Karaoke\nFile\nControls\nView\nLibrary\nHelp\nMon Nov 23 12:59 PM\nKaraoke\n\nNo songs in Karaoke\n\nAdd music from YouTube to get started.\n\nAdd Songs\nAa\nEn\nKo\nMacintosh HD\niPod\nApplet Store\nryOS is available as a Mac app\nDownload\nAdd Song\n\nSearch song, artist, or paste YouTube URL\n\nSearch song, artist, or paste YouTube URL\n\nSearch",
+      "blocked": "Empty music library; lyrics and cross-client sync need populated external media"
+    },
+    "errors": [],
+    "responses": [
+      {
+        "networkError": "net::ERR_ABORTED",
+        "url": "http://127.0.0.1:5174/version.json"
+      },
+      {
+        "networkError": "net::ERR_ABORTED",
+        "url": "http://127.0.0.1:5174/version.json"
+      }
+    ],
+    "evidence": "media-results.json"
+  },
+  {
+    "id": "dashboard",
+    "status": "pass",
+    "detail": {
+      "widgetPicker": "Dashboard\nFile\nHelp\nMon Nov 23 12:59 PM\nMacintosh HD\niPod\nApplet Store\nryOS is available as a Mac app\nDownload\n12:59 PM\n12\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\nSHANGHAI\nDone\nUse My Location\nNew York, NY, United States\nLondon, United Kingdom\nTokyo, Japan\nParis, France\nSydney, Australia\nSan Francisco, CA, United States\nBerlin, Germany\nSingapore, Singapore\nShanghai, China\nHong Kong, Hong Kong\nTaipei, Taiwan\nMon\nNov\n23\nS\nM\nT\nW\nT\nF\nS\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\n25\n26\n27\n28\n29\n30\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\nDone\nShow Colors\nBlue\n✓\nRed\n✓\nGreen\n✓\nOrange\n✓\nPurple\n✓\nH: 12°\nSan Francisco\nL: 8°\n9°\nMON\nTUE\nWED\nTHU\nFRI\nSAT\n13°\n16°\n15°\n16°\n17°\n19°\nDone\nUse My Location\nNew York, NY, United States\nLondon, United Kingdom\nTokyo, Japan\nParis, France\nSydney, Australia\nSan Francisco, CA, United States\nBerlin, Germany\nSingapore, Singapore\nShanghai, China\nHong Kong, Hong Kong\nTaipei, Taiwan\nClock\nCalendar\nWeather\nStocks\niPod\nTranslation\nCurrency Converter\nSticky Note\nDictionary\nAquarium\nTerrarium",
+      "weather": "Observed rendered temperature from provider, not ongoing availability guarantee"
+    },
+    "errors": [],
+    "responses": [
+      {
+        "networkError": "net::ERR_ABORTED",
+        "url": "http://127.0.0.1:5174/version.json"
+      },
+      {
+        "networkError": "net::ERR_ABORTED",
+        "url": "http://127.0.0.1:5174/version.json"
+      }
+    ],
+    "evidence": "media-results.json"
+  },
+  {
+    "id": "internet-explorer",
+    "status": "blocked",
+    "detail": {
+      "blocked": "Initial state inspected; external service, image or account dependent core operation not certified",
+      "text": "Internet Explorer\nFile\nEdit\nFavorites\nHistory\nHelp\nMon Nov 23 12:59 PM\napple.com\n2001\nApple\nRyo\nryOS Docs\nFriends\nWork\nTools\nSites\nError\n\nPrivate or reserved IPs are not allowed\n\nPrivate or reserved IPs are not allowed\n\nPlease try the following:\n\nCheck the web address you typed and try again.\nGo back to the previous page.\nTry refreshing the page.\nPrivate or reserved IPs are not allowed\nHost: apple.com\nMacintosh HD\niPod\nApplet Store\n\nHello! Rover here — I can open apps, play music, or answer questions. Just ask! ✨\n\nryOS is available as a Mac app\nDownload",
+      "frames": [
+        "http://127.0.0.1:5174/"
+      ]
+    },
+    "errors": [],
+    "responses": [
+      {
+        "networkError": "net::ERR_ABORTED",
+        "url": "http://127.0.0.1:5174/version.json"
+      },
+      {
+        "status": 400,
+        "url": "http://127.0.0.1:5174/api/iframe-check?url=https%3A%2F%2Fapple.com&year=2001&month=11&theme=macosx&ieFrame=5KIgGoJsgyLxm_mbAODkKlqk.1795409970637"
+      },
+      {
+        "networkError": "net::ERR_ABORTED",
+        "url": "http://127.0.0.1:5174/version.json"
+      }
+    ],
+    "evidence": "media-results.json"
+  },
+  {
+    "id": "infinite-mac",
+    "status": "blocked",
+    "detail": {
+      "blocked": "Initial state inspected; external service, image or account dependent core operation not certified",
+      "text": "Infinite Mac\nFile\nView\nHelp\nMon Nov 23 12:59 PM\nInfinite Mac\n12 SYSTEMS AVAILABLE\nSystem 1.0\n1984\nSystem 6.0.8\n1991\nSystem 7.5.3\n1996\nKanjiTalk 7.5.3\n1996\nMac OS 8.0\n1997\nMac OS 8.5\n1998\nMac OS 9.0\n1999\nMac OS 9.2.2\n2001\nMac OS X 10.1\n2001\nMac OS X 10.2\n2002\nMac OS X 10.3\n2003\nMac OS X 10.4\n2005\nMacintosh HD\niPod\nApplet Store\n\nHello! Rover here — I can open apps, play music, or answer questions. Just ask! ✨\n\nryOS is available as a Mac app\nDownload",
+      "frames": [
+        "http://127.0.0.1:5174/"
+      ]
+    },
+    "errors": [],
+    "responses": [
+      {
+        "networkError": "net::ERR_ABORTED",
+        "url": "http://127.0.0.1:5174/version.json"
+      },
+      {
+        "networkError": "net::ERR_ABORTED",
+        "url": "http://127.0.0.1:5174/version.json"
+      }
+    ],
+    "evidence": "media-results.json"
+  },
+  {
+    "id": "pc",
+    "status": "blocked",
+    "detail": {
+      "blocked": "Initial state inspected; external service, image or account dependent core operation not certified",
+      "text": "Virtual PC\nFile\nView\nHelp\nMon Nov 23 12:59 PM\nOS\n|\nGames\n30 SYSTEMS AVAILABLE\nFreeDOS\n1998\nMS-DOS 6.22\n1994\nWindows 1.01\n1985\nWindows 3.0\n1990\nWindows 3.1\n1992\nWindows 95\n1995\nWindows 98\n1998\nWindows ME\n2000\nWindows 2000\n2000\nLinux 2.6\n2003\nLinux 4.x\n2017\nArch Linux\n2019\nDamn Small Linux\n2006\nBuildroot Linux\n2014\nFreeBSD\n2003\nOpenBSD\n2010\nNetBSD\n2018\nHaiku\n2009\nBeOS 5\n2000\nReactOS\n2018\nKolibriOS\n2009\nOberon\n1990\nRedox\n2016\nMinix\n1987\nSerenityOS\n2018\nHelenOS\n2011\nFiwixOS\n2018\nSol OS\n2012\nDoom on a Floppy\n2024\nMikeOS\n2009\nMacintosh HD\niPod\nApplet Store\n\nIt looks like you're using ryOS! Need a hand with anything? I'm Rover, happy to help. 📎\n\nryOS is available as a Mac app\nDownload",
+      "frames": [
+        "http://127.0.0.1:5174/"
+      ]
+    },
+    "errors": [],
+    "responses": [
+      {
+        "networkError": "net::ERR_ABORTED",
+        "url": "http://127.0.0.1:5174/version.json"
+      },
+      {
+        "networkError": "net::ERR_ABORTED",
+        "url": "http://127.0.0.1:5174/version.json"
+      }
+    ],
+    "evidence": "media-results.json"
+  },
+  {
+    "id": "chats",
+    "status": "blocked",
+    "detail": {
+      "blocked": "Initial state inspected; external service, image or account dependent core operation not certified",
+      "text": "Chats\nFile\nChats\nSound\nSettings\nHelp\nMon Nov 23 12:59 PM\n@ryo\nChats\n@ryo\n@ryo\nSign in to ryOS\nClear\nRyo\n12:59 PM\n\n👋 hey! i'm ryo. ask me anything!\n\nMacintosh HD\niPod\nApplet Store\n\nHey! I'm Rover. Tip: you can drag me anywhere, and I'll snap to your windows and dock. 🪄\n\nryOS is available as a Mac app\nDownload",
+      "frames": [
+        "http://127.0.0.1:5174/"
+      ]
+    },
+    "errors": [],
+    "responses": [
+      {
+        "networkError": "net::ERR_ABORTED",
+        "url": "http://127.0.0.1:5174/version.json"
+      },
+      {
+        "networkError": "net::ERR_ABORTED",
+        "url": "http://127.0.0.1:5174/version.json"
+      },
+      {
+        "status": 401,
+        "url": "http://127.0.0.1:5174/api/realtime/ticket"
+      }
+    ],
+    "evidence": "media-results.json"
+  },
+  {
+    "id": "admin",
+    "status": "blocked",
+    "detail": {
+      "blocked": "Initial state inspected; external service, image or account dependent core operation not certified",
+      "text": "Admin\nFile\nView\nHelp\nMon Nov 23 12:59 PM\nAdmin\nAccess Denied\n\nThis application is restricted to administrators only.\n\nSign in with an admin account.\n\nMacintosh HD\niPod\nApplet Store\n\nIt looks like you're using ryOS! Need a hand with anything? I'm Rover, happy to help. 📎\n\nryOS is available as a Mac app\nDownload",
+      "frames": [
+        "http://127.0.0.1:5174/"
+      ]
+    },
+    "errors": [],
+    "responses": [
+      {
+        "networkError": "net::ERR_ABORTED",
+        "url": "http://127.0.0.1:5174/version.json"
+      },
+      {
+        "networkError": "net::ERR_ABORTED",
+        "url": "http://127.0.0.1:5174/version.json"
+      }
+    ],
+    "evidence": "media-results.json"
+  },
+  {
+    "id": "maps",
+    "status": "blocked",
+    "detail": {
+      "blocked": "MapKit credentials absent",
+      "errorPresentation": "explicit configuration message",
+      "functionalPass": false
+    },
+    "errors": [],
+    "responses": [
+      {
+        "networkError": "net::ERR_ABORTED",
+        "url": "http://127.0.0.1:5174/version.json"
+      },
+      {
+        "status": 500,
+        "url": "http://127.0.0.1:5174/api/mapkit-token"
+      },
+      {
+        "networkError": "net::ERR_ABORTED",
+        "url": "http://127.0.0.1:5174/version.json"
+      }
+    ],
+    "evidence": "media-results.json"
+  }
+]

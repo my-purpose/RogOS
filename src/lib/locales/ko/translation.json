@@ -4689,6 +4689,14 @@
       "untitled": "제목 없음"
     },
     "soundboard": {
+      "slot": {
+        "record": "녹음",
+        "recording": "녹음 중…"
+      },
+      "errors": {
+        "microphonePermissionDenied": "마이크 권한이 거부되었습니다. 브라우저에서 마이크 사용을 허용한 후 다시 시도하세요.",
+        "recordingFailed": "녹음을 시작할 수 없습니다. 마이크를 확인한 후 다시 시도하세요."
+      },
       "description": "효과음 재생",
       "help": {
         "customizeSlot": {

@@ -144,6 +144,12 @@ export function PhotoBoothComponent({
                 isBackCamera={isBackCamera}
               />
 
+              {cameraError && (
+                <div role="alert" className="absolute inset-0 flex items-center justify-center p-6 text-center text-white bg-black/70">
+                  {cameraError}
+                </div>
+              )}
+
               {/* Camera flash effect */}
               <AnimatePresence>
                 {isFlashing && (

@@ -129,10 +129,10 @@ export function SoundSlot({
             }
           >
             {isRecording
-              ? t("apps.soundboard.slot.recording")
+              ? t("apps.soundboard.slot.recording", { defaultValue: "Recording…" })
               : slot.title || (
                   <span className="invisible group-hover:visible opacity-60 hover:opacity-100">
-                    {slot.audioData ? "Title" : t("apps.soundboard.slot.record")}
+                    {slot.audioData ? "Title" : t("apps.soundboard.slot.record", { defaultValue: "Record" })}
                   </span>
                 )}
           </span>

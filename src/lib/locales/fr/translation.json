@@ -4701,6 +4701,14 @@
       "untitled": "Sans titre"
     },
     "soundboard": {
+      "slot": {
+        "record": "Enregistrer",
+        "recording": "Enregistrement…"
+      },
+      "errors": {
+        "microphonePermissionDenied": "Accès au microphone refusé. Autorisez l’accès au microphone dans votre navigateur et réessayez.",
+        "recordingFailed": "Impossible de démarrer l’enregistrement. Vérifiez votre microphone et réessayez."
+      },
       "description": "Émettre des effets sonores",
       "help": {
         "customizeSlot": {

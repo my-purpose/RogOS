@@ -56,9 +56,11 @@ function setProduction(proxyOrigin: string | null) {
   else delete process.env.IE_PROXY_ORIGIN;
 }
 
+// Routing tests stop at redirect/rate-limit and never fetch the target.
+// A public IP literal avoids DNS-dependent failures (e.g. VPN fake-IP ranges).
 const FRAME = "abcdefghijklmnopqrst.1761140000000";
 const PROXY_PATH = `/api/iframe-check?url=${encodeURIComponent(
-  "https://example.com/"
+  "https://93.184.216.34/"
 )}&theme=macosx&ieFrame=${FRAME}`;
 
 function makeReq(

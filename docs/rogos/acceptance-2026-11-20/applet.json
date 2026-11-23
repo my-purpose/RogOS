@@ -1,0 +1,15 @@
+[
+  {
+    "case": "local HTML import renders and runs button inside iframe",
+    "pass": true
+  },
+  {
+    "case": "applet iframe has sandbox attribute",
+    "pass": true,
+    "sandbox": "allow-scripts allow-forms allow-popups allow-popups-to-escape-sandbox allow-modals allow-pointer-lock allow-downloads"
+  },
+  {
+    "case": "imported applet reopens after reload",
+    "pass": true
+  }
+]

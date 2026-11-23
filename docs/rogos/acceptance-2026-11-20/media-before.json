@@ -1,0 +1,66 @@
+[
+  {
+    "id": "soundboard",
+    "status": "pass",
+    "detail": {
+      "played": [
+        {
+          "time": 0.486459
+        }
+      ]
+    },
+    "errors": [],
+    "responses": []
+  },
+  {
+    "id": "soundboard",
+    "status": "fail",
+    "error": "TimeoutError: locator.waitFor: Timeout 12000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByText('Microphone permission denied. Allow microphone access in your browser and try again.', { exact: true }) to be visible\u001b[22m\n",
+    "text": "Soundboard\nFile\nEdit\nView\nHelp\nFri Nov 20 3:34 PM\nNew Soundboard\nSoundboards\nRyo\nNewJeans\nNew Soundboard\nNew Soundboard\n🎙️\napps.soundboard.slot.record\nMacintosh HD\niPod\nApplet Store\n\nHi there! I'm Rover, your desktop assistant. Click me if you need anything! 👋\n\nryOS is available as a Mac app\nDownload",
+    "errors": [],
+    "responses": []
+  },
+  {
+    "id": "photo-booth",
+    "status": "fail",
+    "error": "TimeoutError: locator.waitFor: Timeout 12000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByText('Camera permission denied', { exact: true }) to be visible\u001b[22m\n",
+    "text": "Photo Booth\nFile\nCamera\nEffects\nHelp\nFri Nov 20 3:34 PM\nPhoto Booth\nEffects\nMacintosh HD\niPod\nApplet Store\n\nHello! Rover here — I can open apps, play music, or answer questions. Just ask! ✨\n\nryOS is available as a Mac app\nDownload",
+    "errors": [],
+    "responses": []
+  },
+  {
+    "id": "synth",
+    "status": "pass",
+    "detail": {
+      "activeKeyCount": 1,
+      "oscillatorsStarted": 6,
+      "preset": "Pad",
+      "limitation": "Web Audio operation verified; no listening or MIDI hardware certification"
+    },
+    "errors": [],
+    "responses": []
+  },
+  {
+    "id": "dictionary",
+    "status": "pass",
+    "detail": "Dictionary\nFile\nView\nReadings\nHelp\nFri Nov 20 3:35 PM\nDictionary\nEnglish\nResults\nserendipity\ngood luck in making unexpected and fortunate discoveries\nserendipity\n1\nnoungood luck in making unexpected and fortunate discoveries\nAI Notes\nExplain Usage\nSources: WordNet (WordNet 3.1 © 2011 Princeton University)\nMacintosh HD\niPod\nApplet Store\n\nHey! I'm Rover. Tip: you can drag me anywhere, and I'll snap to your windows and dock. 🪄\n\nryOS is available as a Mac app\nDownload",
+    "errors": [],
+    "responses": []
+  },
+  {
+    "id": "maps",
+    "status": "pass",
+    "detail": {
+      "blocked": "MapKit credentials absent",
+      "errorPresentation": "explicit configuration message",
+      "functionalPass": false
+    },
+    "errors": [],
+    "responses": [
+      {
+        "status": 500,
+        "url": "http://127.0.0.1:5174/api/mapkit-token"
+      }
+    ]
+  }
+]

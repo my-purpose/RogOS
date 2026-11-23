@@ -577,6 +577,14 @@
       }
     },
     "soundboard": {
+      "slot": {
+        "record": "Record",
+        "recording": "Recording…"
+      },
+      "errors": {
+        "microphonePermissionDenied": "Microphone permission denied. Allow microphone access in your browser and try again.",
+        "recordingFailed": "Could not start recording. Check your microphone and try again."
+      },
       "name": "Soundboard",
       "description": "Play sound effects",
       "soundboards": "Soundboards",

@@ -59,6 +59,8 @@ export function PreviewAppComponent({
     handleOpenWith,
   } = usePreviewLogic({ initialData, instanceId, isWindowOpen });
 
+  const [failedImageUrl, setFailedImageUrl] = useState<string | null>(null);
+  const imageLoadFailed = Boolean(objectUrl && failedImageUrl === objectUrl);
   const isImage = kind === "image";
   const containerRef = useRef<HTMLDivElement>(null);
   const imageRef = useRef<HTMLImageElement>(null);
@@ -131,14 +133,14 @@ export function PreviewAppComponent({
       );
     }
 
-    if (error) {
+    if (error || imageLoadFailed) {
       return (
         <div className="flex h-full flex-col items-center justify-center gap-2 p-8 text-center">
           <span className="text-4xl" aria-hidden="true">
             ⚠️
           </span>
           <strong>{t("apps.preview.status.loadFailed")}</strong>
-          <span className="text-os-text-secondary">{error}</span>
+          {error && <span className="text-os-text-secondary">{error}</span>}
         </div>
       );
     }
@@ -154,8 +156,10 @@ export function PreviewAppComponent({
           )}
         >
           <img
+            key={objectUrl}
             ref={imageRef}
             src={objectUrl}
+            onError={() => setFailedImageUrl(objectUrl)}
             alt={displayName}
             draggable={false}
             onLoad={(event) => {

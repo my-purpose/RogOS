@@ -1,0 +1,10 @@
+[
+  {
+    "case": "export shelf contains edited title and brand",
+    "pass": true
+  },
+  {
+    "case": "shelf import into clean context survives reload",
+    "pass": true
+  }
+]

@@ -1,0 +1,18 @@
+bun test v1.4.4 (38afee6c8)
+
+tests/unit/i18n/test-translation-audit.test.ts:
+(pass) translation audit > uses Apple English account and punctuation style [1.67ms]
+(pass) translation audit > uses Apple glossary casing and inclusive-language English labels [30.39ms]
+(pass) translation audit > capitalizes standalone color labels in cased locales [0.18ms]
+(pass) translation audit > avoids forbidden Apple English style patterns in catalog values [5.94ms]
+(pass) translation audit > uses terminology extracted from the macOS 26.1 corpus [0.72ms]
+(pass) translation audit > uses contextual overrides for ambiguous English labels [0.25ms]
+(pass) translation audit > uses consistent Apple Stickies terminology in Chinese locales [0.23ms]
+(pass) translation audit > localizes the Stuff app name [0.06ms]
+(pass) translation audit > all locales match the source and Apple UI terminology [170.71ms]
+(pass) translation audit > Russian count labels resolve every CLDR plural form [3.87ms]
+
+ 10 pass
+ 0 fail
+ 21248 expect() calls
+Ran 10 tests across 1 file. [281.00ms]

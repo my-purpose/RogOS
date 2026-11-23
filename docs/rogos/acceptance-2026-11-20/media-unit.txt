@@ -1,0 +1,14 @@
+bun test v1.4.4 (38afee6c8)
+
+tests/unit/media/test-soundboard-indexeddb-persistence.test.ts:
+(pass) useSoundboardStore IndexedDB persistence > migrates legacy localStorage boards into IndexedDB on hydration [30.94ms]
+(pass) useSoundboardStore IndexedDB persistence > new boards persist to IndexedDB, not localStorage [20.57ms]
+(pass) useSoundboardStore IndexedDB persistence > stores recorded audio as a Blob row and restores runtime base64 [31.11ms]
+
+tests/unit/media/test-soundboard-slot-identity.test.tsx:
+(pass) shared empty slots have unique identities stable through recording updates [0.50ms]
+
+ 4 pass
+ 0 fail
+ 11 expect() calls
+Ran 4 tests across 2 files. [224.00ms]

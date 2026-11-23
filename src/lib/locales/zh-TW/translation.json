@@ -4564,6 +4564,14 @@
       "untitled": "未命名"
     },
     "soundboard": {
+      "slot": {
+        "record": "錄音",
+        "recording": "正在錄音…"
+      },
+      "errors": {
+        "microphonePermissionDenied": "麥克風權限遭拒。請在瀏覽器中允許使用麥克風後重試。",
+        "recordingFailed": "無法開始錄音，請檢查麥克風後重試。"
+      },
       "description": "播放音效",
       "help": {
         "customizeSlot": {

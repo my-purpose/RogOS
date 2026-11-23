@@ -1,0 +1,34 @@
+[
+  {
+    "case": "new contact immediate reload",
+    "pass": true
+  },
+  {
+    "case": "edit existing then immediate reload: Edited",
+    "pass": true
+  },
+  {
+    "case": "edit existing then immediate reload: Second",
+    "pass": true
+  },
+  {
+    "case": "edit existing then immediate reload: Third",
+    "pass": true
+  },
+  {
+    "case": "checkpoint quota failure keeps editor and allows retry",
+    "pass": true
+  },
+  {
+    "case": "retry after quota failure persists and cleans checkpoint",
+    "pass": true
+  },
+  {
+    "case": "database failure retains editor and recovery checkpoint",
+    "pass": true
+  },
+  {
+    "case": "reload after database failure restores checkpoint to database",
+    "pass": true
+  }
+]

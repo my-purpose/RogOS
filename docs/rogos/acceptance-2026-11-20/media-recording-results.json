@@ -1,0 +1,26 @@
+[
+  {
+    "id": "soundboard",
+    "status": "pass",
+    "detail": {
+      "syntheticMicrophone": true,
+      "savedBytes": 7736,
+      "restoredBytes": 7736
+    },
+    "errors": [],
+    "responses": [
+      {
+        "networkError": "net::ERR_ABORTED",
+        "url": "http://127.0.0.1:5174/version.json"
+      },
+      {
+        "networkError": "net::ERR_ABORTED",
+        "url": "http://127.0.0.1:5174/version.json"
+      },
+      {
+        "networkError": "net::ERR_ABORTED",
+        "url": "http://127.0.0.1:5174/version.json"
+      }
+    ]
+  }
+]

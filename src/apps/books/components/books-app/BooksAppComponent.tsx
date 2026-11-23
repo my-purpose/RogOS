@@ -309,7 +309,7 @@ export function BooksAppComponent({
         onNavigateNext,
         onNavigatePrevious,
         titleBarRightContent: (
-          <div className="flex items-center gap-1">
+          <div className="flex items-center gap-1 pr-2">
             {highlightsTitleBarButton}
             {bookmarkTitleBarButton}
             {shelfButton}
